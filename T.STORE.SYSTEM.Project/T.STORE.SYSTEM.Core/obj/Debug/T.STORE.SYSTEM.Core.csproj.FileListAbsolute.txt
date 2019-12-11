@@ -1,0 +1,4 @@
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\bin\Debug\T.STORE.SYSTEM.Core.dll
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\bin\Debug\T.STORE.SYSTEM.Core.pdb
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\obj\Debug\T.STORE.SYSTEM.Core.dll
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\obj\Debug\T.STORE.SYSTEM.Core.pdb

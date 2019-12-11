@@ -1,0 +1,5 @@
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.EntityFrameworkCore\bin\Debug\T.STORE.SYSTEM.EntityFrameworkCore.dll
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.EntityFrameworkCore\bin\Debug\T.STORE.SYSTEM.EntityFrameworkCore.pdb
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.EntityFrameworkCore\obj\Debug\T.STORE.SYSTEM.EntityFrameworkCore.csprojAssemblyReference.cache
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.EntityFrameworkCore\obj\Debug\T.STORE.SYSTEM.EntityFrameworkCore.dll
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.EntityFrameworkCore\obj\Debug\T.STORE.SYSTEM.EntityFrameworkCore.pdb
