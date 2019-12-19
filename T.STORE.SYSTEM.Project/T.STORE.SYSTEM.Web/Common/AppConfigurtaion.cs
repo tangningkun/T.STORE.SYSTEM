@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace T.STORE.SYSTEM.Web.Common
 {
-    public class AppConfigurtaionServices
+    public class AppConfigurtaion
     {
         /*public static IConfiguration Configuration { get; set; }
         static AppConfigurtaionServices()
@@ -17,7 +17,7 @@ namespace T.STORE.SYSTEM.Web.Common
             .Build();
         }*/
         private readonly IConfiguration _configuration;
-        public AppConfigurtaionServices(IConfiguration configuration)
+        public AppConfigurtaion(IConfiguration configuration)
         {
             _configuration = configuration;
         }
