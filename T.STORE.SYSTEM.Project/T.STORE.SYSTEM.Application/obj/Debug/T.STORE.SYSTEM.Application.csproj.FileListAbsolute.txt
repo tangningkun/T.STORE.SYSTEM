@@ -8,3 +8,5 @@ H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.P
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\obj\Debug\T.STORE.SYSTEM.Application.csproj.CopyComplete
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\obj\Debug\T.STORE.SYSTEM.Application.dll
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\obj\Debug\T.STORE.SYSTEM.Application.pdb
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\Newtonsoft.Json.dll
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\Newtonsoft.Json.xml

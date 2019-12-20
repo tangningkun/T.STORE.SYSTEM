@@ -14,7 +14,7 @@ namespace T.STORE.SYSTEM.EntityFrameworkCore.Migrations.SeedData
     {
         public static void Initialize(IServiceProvider serviceProvider)
         {
-            using (var context = new StoreDbContext(serviceProvider.GetRequiredService<DbContextOptions<StoreDbContext>>()))
+            using (var context = new StoreDbContext())
             {
                 if (context.Users.Any())
                 {

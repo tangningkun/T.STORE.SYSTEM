@@ -39,3 +39,7 @@ H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.P
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Web\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.Web.csproj.CopyComplete
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Web\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.Web.dll
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Web\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.Web.pdb
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Web\bin\Debug\netcoreapp2.2\Z.EntityFramework.Extensions.dll
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Web\bin\Debug\netcoreapp2.2\EntityFramework.dll
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Web\bin\Debug\netcoreapp2.2\Z.EntityFramework.Extensions.xml
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Web\bin\Debug\netcoreapp2.2\EntityFramework.xml

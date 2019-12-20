@@ -157,3 +157,13 @@ H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.P
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.EntityFrameworkCore\obj\Debug\T.STORE.SYSTEM.EntityFrameworkCore.pdb
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.EntityFrameworkCore\bin\Debug\T.STORE.SYSTEM.Domain.dll
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.EntityFrameworkCore\bin\Debug\T.STORE.SYSTEM.Domain.pdb
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.EntityFrameworkCore\bin\Debug\EntityFramework.dll
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.EntityFrameworkCore\bin\Debug\EntityFramework.SqlServer.dll
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.EntityFrameworkCore\bin\Debug\T.STORE.SYSTEM.Core.dll
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.EntityFrameworkCore\bin\Debug\Z.EntityFramework.Extensions.dll
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.EntityFrameworkCore\bin\Debug\Newtonsoft.Json.dll
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.EntityFrameworkCore\bin\Debug\T.STORE.SYSTEM.Core.pdb
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.EntityFrameworkCore\bin\Debug\EntityFramework.xml
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.EntityFrameworkCore\bin\Debug\EntityFramework.SqlServer.xml
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.EntityFrameworkCore\bin\Debug\Z.EntityFramework.Extensions.xml
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.EntityFrameworkCore\bin\Debug\Newtonsoft.Json.xml

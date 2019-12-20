@@ -11,10 +11,10 @@ namespace T.STORE.SYSTEM.EntityFrameworkCore.EntityFramework
 {
     public abstract class StoreSystemRepositoryBase<TEntity, TPrimaryKey> : IStoreSystemRepositoryBase<TEntity, TPrimaryKey> where TEntity : Entity<TPrimaryKey>
     {
-        private readonly StoreDbContext _dbContext;
-        public StoreSystemRepositoryBase(StoreDbContext dbContext)
+        private StoreDbContext _dbContext { get; set; }
+        public StoreSystemRepositoryBase()
         {
-            _dbContext = dbContext;
+            _dbContext = (StoreDbContext)DBContextFactory.CReateDbContext();
         }
 
         //public LtmkGnssDbContext _dbContext = (LtmkGnssDbContext)DBContextFactory.CReateDbContext();

@@ -34,7 +34,7 @@ namespace T.STORE.SYSTEM.Web
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddDbContext<StoreDbContext>(options => options.UseMySQL(Configuration.GetConnectionString("Default")));
+            //services.AddDbContext<StoreDbContext>(options => options.UseMySQL(Configuration.GetConnectionString("Default")));
 
 
             services.AddTransient<AppConfigurtaion>();
@@ -53,6 +53,7 @@ namespace T.STORE.SYSTEM.Web
             });
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            StoreDbContext.ConnectionString = Configuration.GetConnectionString("Default");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

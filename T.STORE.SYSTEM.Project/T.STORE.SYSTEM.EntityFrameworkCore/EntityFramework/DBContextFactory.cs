@@ -15,16 +15,16 @@ namespace T.STORE.SYSTEM.EntityFrameworkCore.EntityFramework
     /// </summary>
     public class DBContextFactory
     {
-        //public static DbContext CReateDbContext()
-        //{
+        public static DbContext CReateDbContext()
+        {
 
-        //    DbContext dbcontext = (DbContext)CallContext.GetData("dbContext");
-        //    if (dbcontext == null)
-        //    {
-        //        dbcontext = new StoreDbContext(IApplicationBuilder.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope()));
-        //        CallContext.SetData("dbContext", dbcontext);
-        //    }
-        //    return dbcontext;
-        //}
+            DbContext dbcontext = (DbContext)CallContext.GetData("dbContext");
+            if (dbcontext == null)
+            {
+                dbcontext = new StoreDbContext();
+                CallContext.SetData("dbContext", dbcontext);
+            }
+            return dbcontext;
+        }
     }
 }

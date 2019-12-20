@@ -10,9 +10,13 @@ namespace T.STORE.SYSTEM.EntityFrameworkCore
 {
     public class StoreDbContext:DbContext
     {
-        public StoreDbContext(DbContextOptions<StoreDbContext> options) : base(options)
+        public static string ConnectionString { get; set; }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            optionsBuilder.UseMySQL(ConnectionString);
         }
+
+
         #region 实体集
         public virtual DbSet<Menu> Menus { get; set; }
         public virtual DbSet<Role> Roles { get; set; }

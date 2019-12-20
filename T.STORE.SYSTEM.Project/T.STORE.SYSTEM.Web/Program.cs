@@ -28,10 +28,9 @@ namespace T.STORE.SYSTEM.Web
 
                 try
                 {
-                    var context = services.
-                        GetRequiredService<StoreDbContext>();
+                    var context = new StoreDbContext();
                     context.Database.Migrate();
-                    DbInitialization.Initialize(services);
+                    //DbInitialization.Initialize(services);
                 }
                 catch (Exception ex)
                 {
