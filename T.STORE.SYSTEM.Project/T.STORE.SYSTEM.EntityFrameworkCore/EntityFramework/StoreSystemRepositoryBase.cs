@@ -9,7 +9,7 @@ using T.STORE.SYSTEM.Domain;
 
 namespace T.STORE.SYSTEM.EntityFrameworkCore.EntityFramework
 {
-    public abstract class StoreSystemRepositoryBase<TEntity, TPrimaryKey> : IStoreSystemRepositoryBase<TEntity, TPrimaryKey> where TEntity : Entity<TPrimaryKey>
+    public abstract class StoreSystemRepositoryBase<TEntity, TPrimaryKey> : IDependency, IStoreSystemRepositoryBase<TEntity, TPrimaryKey> where TEntity : Entity<TPrimaryKey>
     {
         private StoreDbContext _dbContext { get; set; }
         public StoreSystemRepositoryBase()
