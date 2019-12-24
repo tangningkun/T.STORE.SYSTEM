@@ -17,8 +17,6 @@ namespace T.STORE.SYSTEM.EntityFrameworkCore.EntityFramework
             _dbContext = (StoreDbContext)DBContextFactory.CReateDbContext();
         }
 
-        //public LtmkGnssDbContext _dbContext = (LtmkGnssDbContext)DBContextFactory.CReateDbContext();
-
         #region 其他
         /// <summary>
         /// 获取此存储库中所有实体的计数
