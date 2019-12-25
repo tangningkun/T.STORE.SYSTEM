@@ -469,7 +469,9 @@
       "T.STORE.SYSTEM.Application/1.0.0": {
         "dependencies": {
           "T.STORE.SYSTEM.Core": "1.0.0",
-          "T.STORE.SYSTEM.Domain": "1.0.0"
+          "T.STORE.SYSTEM.Domain": "1.0.0",
+          "T.STORE.SYSTEM.EntityFrameworkCore": "1.0.0",
+          "T.STORE.SYSTEM.Repository": "1.0.0"
         },
         "runtime": {
           "T.STORE.SYSTEM.Application.dll": {}
@@ -500,15 +502,27 @@
       "T.STORE.SYSTEM.EntityFrameworkCore/1.0.0": {
         "dependencies": {
           "T.STORE.SYSTEM.Core": "1.0.0",
-          "T.STORE.SYSTEM.Domain": "1.0.0",
-          "Z.EntityFramework.Extensions": "4.0.30.0",
-          "EntityFramework": "6.0.0.0"
+          "T.STORE.SYSTEM.Domain": "1.0.0"
         },
         "runtime": {
           "T.STORE.SYSTEM.EntityFrameworkCore.dll": {}
         },
         "compile": {
           "T.STORE.SYSTEM.EntityFrameworkCore.dll": {}
+        }
+      },
+      "T.STORE.SYSTEM.Repository/1.0.0": {
+        "dependencies": {
+          "T.STORE.SYSTEM.Domain": "1.0.0",
+          "T.STORE.SYSTEM.EntityFrameworkCore": "1.0.0",
+          "Z.EntityFramework.Extensions": "4.0.30.0",
+          "EntityFramework": "6.0.0.0"
+        },
+        "runtime": {
+          "T.STORE.SYSTEM.Repository.dll": {}
+        },
+        "compile": {
+          "T.STORE.SYSTEM.Repository.dll": {}
         }
       },
       "Z.EntityFramework.Extensions.Reference/4.0.30.0": {
@@ -3728,6 +3742,11 @@
       "sha512": ""
     },
     "T.STORE.SYSTEM.EntityFrameworkCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "T.STORE.SYSTEM.Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

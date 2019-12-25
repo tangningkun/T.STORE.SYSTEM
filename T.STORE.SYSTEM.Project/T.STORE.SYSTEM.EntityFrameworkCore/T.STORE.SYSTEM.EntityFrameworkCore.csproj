@@ -144,10 +144,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EntityFramework\DBContextFactory.cs" />
-    <Compile Include="EntityFramework\IDependency.cs" />
-    <Compile Include="EntityFramework\IStoreSystemRepositoryBase.cs" />
-    <Compile Include="EntityFramework\StoreSystemRepositoryBase.cs" />
     <Compile Include="Migrations\20191216143658_initialization.cs" />
     <Compile Include="Migrations\20191216143658_initialization.designer.cs">
       <DependentUpon>20191216143658_initialization.cs</DependentUpon>

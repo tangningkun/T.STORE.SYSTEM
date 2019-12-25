@@ -17,12 +17,12 @@ namespace T.STORE.SYSTEM.WebApi.Common
 
             //builder.RegisterType<User>().As<IUser>().PropertiesAutowired();直接对类进行注册
 
-            Assembly repositoryAss = Assembly.Load("Repository"); //对Repository这个类库进行里的类进行集体注册
+            Assembly repositoryAss = Assembly.Load("T.STORE.SYSTEM.Repository"); //对Repository这个类库进行里的类进行集体注册
             Type[] repositorytypes = repositoryAss.GetTypes();
             builder.RegisterTypes(repositorytypes).AsImplementedInterfaces().PropertiesAutowired();
 
 
-            Assembly applicationAss = Assembly.Load("Application");//对Application这个类库进行里的类进行集体注册
+            Assembly applicationAss = Assembly.Load("T.STORE.SYSTEM.Application");//对Application这个类库进行里的类进行集体注册
             Type[] applicationtypes = applicationAss.GetTypes();
             builder.RegisterTypes(applicationtypes).AsImplementedInterfaces().PropertiesAutowired();
 

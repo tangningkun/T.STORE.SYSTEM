@@ -11,10 +11,10 @@ namespace T.STORE.SYSTEM.Application.Users
 {
     public class UserAppService:BaseAppService<User>, IUserAppService
     {
-        private readonly IUserRepository _repository;
-        public UserAppService(IUserRepository repository)
+        private readonly IUserRepository _userRepository;
+        public UserAppService(IUserRepository userRepository) : base(userRepository)
         {
-            _repository = repository;
+            _userRepository = userRepository;
         }
     }
 }

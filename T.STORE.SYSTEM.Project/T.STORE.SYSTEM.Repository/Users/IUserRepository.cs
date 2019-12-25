@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using T.STORE.SYSTEM.EntityFrameworkCore.EntityFramework;
 using T.STORE.SYSTEM.Domain.Entities;
+using T.STORE.SYSTEM.Repository.EntityFramework;
 
 namespace T.STORE.SYSTEM.Repository.Users
 {
-    public interface IUserRepository:IStoreSystemRepositoryBase<User,int>
+    public interface IUserRepository:IStoreSystemRepositoryBase<User>
     {
     }
 }

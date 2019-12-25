@@ -5,15 +5,15 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using T.STORE.SYSTEM.Domain;
-using T.STORE.SYSTEM.EntityFrameworkCore.EntityFramework;
+using T.STORE.SYSTEM.Repository.EntityFramework;
 
 namespace T.STORE.SYSTEM.Application.Base
 {
     public abstract class BaseAppService<TEntity> : IBaseAppService<TEntity> where TEntity : Entity
     {
-        private readonly IStoreSystemRepositoryBase<TEntity,int> _repositiory;
+        private readonly IStoreSystemRepositoryBase<TEntity> _repositiory;
 
-        protected BaseAppService(IStoreSystemRepositoryBase<TEntity, int> repositiory)
+        protected BaseAppService(IStoreSystemRepositoryBase<TEntity> repositiory)
         {
             _repositiory = repositiory;
         }
