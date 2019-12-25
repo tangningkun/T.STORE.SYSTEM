@@ -18,6 +18,12 @@
               },
               "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj": {
                 "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj"
+              },
+              "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj": {
+                "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj"
+              },
+              "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Repository\\T.STORE.SYSTEM.Repository.csproj": {
+                "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Repository\\T.STORE.SYSTEM.Repository.csproj"
               }
             }
           }
@@ -72,6 +78,29 @@
               },
               "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj": {
                 "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Repository\\T.STORE.SYSTEM.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Repository\\T.STORE.SYSTEM.Repository.csproj",
+        "projectName": "T.STORE.SYSTEM.Repository",
+        "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Repository\\T.STORE.SYSTEM.Repository.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj": {
+                "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj"
+              },
+              "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj": {
+                "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj"
               }
             }
           }
@@ -164,6 +193,10 @@
             "MySql.Data.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.18, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [

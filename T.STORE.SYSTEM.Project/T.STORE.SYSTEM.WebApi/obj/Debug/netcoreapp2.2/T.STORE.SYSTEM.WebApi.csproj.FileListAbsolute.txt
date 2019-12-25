@@ -26,6 +26,10 @@ F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.
 F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.csproj.CopyComplete
 F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.dll
 F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.pdb
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Repository.dll
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Repository.pdb
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Application.dll.config
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Repository.dll.config
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\appsettings.Development.json
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\appsettings.json
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
@@ -38,13 +42,17 @@ H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.P
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Core.dll
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Domain.dll
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.EntityFrameworkCore.dll
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Repository.dll
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\Z.EntityFramework.Extensions.dll
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\EntityFramework.dll
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Application.pdb
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Application.dll.config
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Core.pdb
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Domain.pdb
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.EntityFrameworkCore.pdb
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.EntityFrameworkCore.dll.config
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Repository.pdb
+H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Repository.dll.config
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\Z.EntityFramework.Extensions.xml
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\EntityFramework.xml
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.csprojAssemblyReference.cache
@@ -56,7 +64,3 @@ H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.P
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.csproj.CopyComplete
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.dll
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.pdb
-F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Repository.dll
-F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Repository.pdb
-F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Application.dll.config
-F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Repository.dll.config

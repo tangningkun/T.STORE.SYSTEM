@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using T.STORE.SYSTEM.Application.Users;
 
 namespace T.STORE.SYSTEM.WebApi.Controllers
 {
@@ -10,6 +11,11 @@ namespace T.STORE.SYSTEM.WebApi.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private readonly IUserAppService _userAppService;
+        public ValuesController(IUserAppService userAppService)
+        {
+            _userAppService = userAppService;
+        }
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
