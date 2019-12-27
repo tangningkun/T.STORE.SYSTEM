@@ -126,3 +126,22 @@ H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.P
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\obj\Debug\T.STORE.SYSTEM.Application.csproj.CopyComplete
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\obj\Debug\T.STORE.SYSTEM.Application.dll
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\obj\Debug\T.STORE.SYSTEM.Application.pdb
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\System.Interactive.Async.dll
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\Microsoft.Extensions.Logging.dll
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\Microsoft.Extensions.Options.dll
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\System.Interactive.Async.xml
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\System.Collections.Immutable.xml
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\Microsoft.Extensions.Logging.xml
+F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Application\bin\Debug\Microsoft.Extensions.Options.xml

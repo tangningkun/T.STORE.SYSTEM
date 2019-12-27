@@ -28,6 +28,8 @@ namespace T.STORE.SYSTEM.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<AppConfigurtaion>();
+            AutofacConfigure.Register(services);
+            services.AddMvc().AddWebApiConventions();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             StoreDbContext.ConnectionString = Configuration.GetConnectionString("Default");
         }
