@@ -1,6 +1,8 @@
 ﻿using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,21 +16,55 @@ namespace T.STORE.SYSTEM.WebApi.Common
         public static AutofacServiceProvider Register(IServiceCollection services)
         {
             ContainerBuilder builder = new ContainerBuilder();
-
-            //builder.RegisterType<User>().As<IUser>().PropertiesAutowired();直接对类进行注册
-
-            Assembly repositoryAss = Assembly.Load("T.STORE.SYSTEM.Repository"); //对Repository这个类库进行里的类进行集体注册
-            Type[] repositorytypes = repositoryAss.GetTypes();
-            builder.RegisterTypes(repositorytypes).AsImplementedInterfaces().PropertiesAutowired();
-
-
-            Assembly applicationAss = Assembly.Load("T.STORE.SYSTEM.Application");//对Application这个类库进行里的类进行集体注册
-            Type[] applicationtypes = applicationAss.GetTypes();
-            builder.RegisterTypes(applicationtypes).AsImplementedInterfaces().PropertiesAutowired();
-
             builder.Populate(services);
-            var container = builder.Build();
+
+            //注册所有控制器
+            var controllersTypesInAssembly = typeof(Startup).Assembly.GetExportedTypes()
+            .Where(type => typeof(ControllerBase).IsAssignableFrom(type)).ToArray();
+            builder.RegisterTypes(controllersTypesInAssembly).PropertiesAutowired();
+
+            //注册ServiceModule组件[第五步新添加]
+            builder.RegisterModule<ServiceModule>();
+            //注册RepositoryModule组件[第五步新添加]
+            builder.RegisterModule<RepositoryModule>();
+            //创建容器
+            IContainer container = builder.Build();
+
             return new AutofacServiceProvider(container);
+        }
+    }
+
+
+    public class RepositoryModule : Autofac.Module
+    {
+        //重写Autofac管道中的Load方法，在这里注入注册的内容
+        protected override void Load(ContainerBuilder builder)
+        {
+            //注册Autofac.DAL中以Repository结尾的类
+            builder.RegisterAssemblyTypes(AutofacHelper.GetAssemblyByName("T.STORE.SYSTEM.Repository")).Where(a => a.Name.EndsWith("Repository")).AsImplementedInterfaces();
+        }
+    }
+
+    public class ServiceModule : Autofac.Module
+    {
+        //重写Autofac管道中的Load方法，在这里注入注册的内容
+        protected override void Load(ContainerBuilder builder)
+        {
+            //注册Autofac.BLL中以Service结尾的类
+            builder.RegisterAssemblyTypes(AutofacHelper.GetAssemblyByName("T.STORE.SYSTEM.Application")).Where(a => a.Name.EndsWith("AppService")).AsImplementedInterfaces();
+        }
+    }
+
+    public class AutofacHelper
+    {
+        /// <summary>
+        /// 根据程序集名称获取程序集
+        /// </summary>
+        /// <param name="AssemblyName">程序集名称</param>
+        /// <returns></returns>
+        public static Assembly GetAssemblyByName(String AssemblyName)
+        {
+            return Assembly.Load(AssemblyName);
         }
     }
 }

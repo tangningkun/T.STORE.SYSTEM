@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\CallContext.cs" />
     <Compile Include="Common\CreateApiKey.cs" />
     <Compile Include="Common\LamadaExtention.cs" />
     <Compile Include="Common\Utils.cs" />

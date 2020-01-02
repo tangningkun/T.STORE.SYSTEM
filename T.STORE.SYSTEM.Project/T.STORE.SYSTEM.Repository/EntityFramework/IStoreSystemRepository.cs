@@ -8,7 +8,7 @@ using T.STORE.SYSTEM.Domain;
 
 namespace T.STORE.SYSTEM.Repository.EntityFramework
 {
-    public interface IStoreSystemRepositoryBase<TEntity> where TEntity : Entity
+    public interface IStoreSystemRepository<TEntity> where TEntity : Entity
     {
         #region 其他
         /// <summary>
@@ -189,6 +189,4 @@ namespace T.STORE.SYSTEM.Repository.EntityFramework
 
         #endregion
     }
-
-    
 }

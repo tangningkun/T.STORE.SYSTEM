@@ -8,7 +8,7 @@ using T.STORE.SYSTEM.Repository.EntityFramework;
 
 namespace T.STORE.SYSTEM.Repository.Menus
 {
-    public interface IMenuRepository : IStoreSystemRepositoryBase<Menu>
+    public interface IMenuRepository : IStoreSystemRepository<Menu>
     {
     }
 }

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>T.STORE.SYSTEM.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:T.STORE.SYSTEM.WebApi.Common.AutofacHelper.GetAssemblyByName(System.String)">
+            <summary>
+            根据程序集名称获取程序集
+            </summary>
+            <param name="AssemblyName">程序集名称</param>
+            <returns></returns>
+        </member>
+        <member name="P:T.STORE.SYSTEM.WebApi.Model.MessageModel.status">
+            <summary>
+            0：失败，1：成功 其他
+            </summary>
+        </member>
+        <member name="P:T.STORE.SYSTEM.WebApi.Model.MessageModel.msg">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="P:T.STORE.SYSTEM.WebApi.Model.MessageModel.data">
+            <summary>
+            对象信息
+            </summary>
+        </member>
+        <member name="T:T.STORE.SYSTEM.WebApi.Model.EnResultStatus">
+            <summary>
+            枚举类型
+            </summary>
+        </member>
+    </members>
+</doc>

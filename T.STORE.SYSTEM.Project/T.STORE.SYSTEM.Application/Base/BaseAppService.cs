@@ -11,9 +11,9 @@ namespace T.STORE.SYSTEM.Application.Base
 {
     public abstract class BaseAppService<TEntity> : IBaseAppService<TEntity> where TEntity : Entity
     {
-        private readonly IStoreSystemRepositoryBase<TEntity> _repositiory;
+        private readonly IStoreSystemRepository<TEntity> _repositiory;
 
-        protected BaseAppService(IStoreSystemRepositoryBase<TEntity> repositiory)
+        protected BaseAppService(IStoreSystemRepository<TEntity> repositiory)
         {
             _repositiory = repositiory;
         }

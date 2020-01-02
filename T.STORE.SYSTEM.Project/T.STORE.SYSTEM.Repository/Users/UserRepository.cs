@@ -8,7 +8,7 @@ using T.STORE.SYSTEM.Domain.Entities;
 
 namespace T.STORE.SYSTEM.Repository.Users
 {
-    public class UserRepository:StoreSystemRepositoryBase<User>, IUserRepository
+    public class UserRepository:StoreSystemRepository<User>, IUserRepository
     {
     }
 }

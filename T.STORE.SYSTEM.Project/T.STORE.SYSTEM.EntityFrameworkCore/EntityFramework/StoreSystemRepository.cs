@@ -7,17 +7,17 @@ using System.Text;
 using System.Threading.Tasks;
 using T.STORE.SYSTEM.Domain;
 using T.STORE.SYSTEM.EntityFrameworkCore;
-using T.STORE.SYSTEM.Repository.EntityFramework;
 
-namespace T.STORE.SYSTEM.Repository.EntityFramework
+namespace T.STORE.SYSTEM.EntityFrameworkCore.EntityFramework
 {
-    public class StoreSystemRepositoryBase<TEntity> : IStoreSystemRepositoryBase<TEntity> where TEntity : Entity
+    public class StoreSystemRepository<TEntity> : IStoreSystemRepository<TEntity> where TEntity : Entity
     {
-        private StoreDbContext _dbContext { get; set; }
-        public StoreSystemRepositoryBase()
+        public StoreDbContext _dbContext { get; set; }
+        public StoreSystemRepository()
         {
             _dbContext = (StoreDbContext)DBContextFactory.CReateDbContext();
         }
+        //public StoreDbContext _dbContext = (StoreDbContext)DBContextFactory.CReateDbContext();
 
         #region 其他
         /// <summary>

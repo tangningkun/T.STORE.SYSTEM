@@ -11,7 +11,7 @@ using T.STORE.SYSTEM.WebApi.Model;
 
 namespace T.STORE.SYSTEM.WebApi.Controllers
 {
-    [Route("api/account")]
+    [Route("api/[controller]")]
     [ApiController]
     public class AccountController : ControllerBase
     {

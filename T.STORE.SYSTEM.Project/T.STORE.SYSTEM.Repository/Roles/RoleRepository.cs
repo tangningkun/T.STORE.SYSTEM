@@ -8,7 +8,7 @@ using T.STORE.SYSTEM.Repository.EntityFramework;
 
 namespace T.STORE.SYSTEM.Repository.Roles
 {
-    public class RoleRepository : StoreSystemRepositoryBase<Role>, IRoleRepository
+    public class RoleRepository : StoreSystemRepository<Role>, IRoleRepository
     {
     }
 }

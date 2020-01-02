@@ -8,7 +8,7 @@ using T.STORE.SYSTEM.Repository.EntityFramework;
 
 namespace T.STORE.SYSTEM.Repository.Users
 {
-    public interface IUserRepository:IStoreSystemRepositoryBase<User>
+    public interface IUserRepository:IStoreSystemRepository<User>
     {
     }
 }
