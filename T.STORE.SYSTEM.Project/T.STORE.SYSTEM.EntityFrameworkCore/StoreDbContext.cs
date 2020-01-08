@@ -22,6 +22,7 @@ namespace T.STORE.SYSTEM.EntityFrameworkCore
         public virtual DbSet<Role> Roles { get; set; }
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<UserRole> UserRoles { get; set; }
+        public virtual DbSet<SystemLog> SystemLogs { get; set; }
         #endregion
 
         //自定义DbContext实体属性名与数据库表对应名称（默认 表名与属性名对应是 User与Users）
@@ -31,6 +32,7 @@ namespace T.STORE.SYSTEM.EntityFrameworkCore
             modelBuilder.Entity<Role>().ToTable("Role");
             modelBuilder.Entity<User>().ToTable("User");
             modelBuilder.Entity<UserRole>().ToTable("UserRole");
+            modelBuilder.Entity<SystemLog>().ToTable("SystemLog");
         }
     }
 }

@@ -148,6 +148,10 @@
     <Compile Include="Migrations\20191216143658_initialization.designer.cs">
       <DependentUpon>20191216143658_initialization.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20200108025807_ADD_TABLE_SystemLog.cs" />
+    <Compile Include="Migrations\20200108025807_ADD_TABLE_SystemLog.designer.cs">
+      <DependentUpon>20200108025807_ADD_TABLE_SystemLog.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\SeedData\DbInitialization.cs" />
     <Compile Include="Migrations\StoreDbContextModelSnapshot.cs" />
     <Compile Include="StoreDbContext.cs" />

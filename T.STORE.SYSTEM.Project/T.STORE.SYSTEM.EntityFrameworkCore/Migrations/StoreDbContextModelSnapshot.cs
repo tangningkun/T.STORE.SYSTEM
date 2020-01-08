@@ -14,14 +14,16 @@ namespace T.STORE.SYSTEM.EntityFrameworkCore.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.2.6-servicing-10079");
+                .HasAnnotation("ProductVersion", "2.2.0-rtm-35687");
 
             modelBuilder.Entity("T.STORE.SYSTEM.Domain.Entities.Menu", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Code");
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasMaxLength(50);
 
                     b.Property<int?>("Component");
 
@@ -29,9 +31,13 @@ namespace T.STORE.SYSTEM.EntityFrameworkCore.Migrations
 
                     b.Property<string>("Icon");
 
-                    b.Property<string>("IsPage");
+                    b.Property<string>("IsPage")
+                        .IsRequired()
+                        .HasMaxLength(50);
 
-                    b.Property<string>("Name");
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50);
 
                     b.Property<byte[]>("Pid")
                         .IsRequired()
@@ -44,7 +50,7 @@ namespace T.STORE.SYSTEM.EntityFrameworkCore.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Menus");
+                    b.ToTable("Menu");
                 });
 
             modelBuilder.Entity("T.STORE.SYSTEM.Domain.Entities.Role", b =>
@@ -56,18 +62,76 @@ namespace T.STORE.SYSTEM.EntityFrameworkCore.Migrations
 
                     b.Property<bool>("IsAdmin");
 
-                    b.Property<bool?>("IsUse");
+                    b.Property<bool>("IsUse");
 
-                    b.Property<string>("MenuIds");
+                    b.Property<string>("MenuIds")
+                        .HasMaxLength(1000);
 
-                    b.Property<string>("RoleName");
+                    b.Property<string>("RoleName")
+                        .IsRequired()
+                        .HasMaxLength(50);
 
                     b.Property<byte[]>("TenantId")
                         .HasConversion(new ValueConverter<byte[], byte[]>(v => default(byte[]), v => default(byte[]), new ConverterMappingHints(size: 16)));
 
                     b.HasKey("Id");
 
-                    b.ToTable("Roles");
+                    b.ToTable("Role");
+                });
+
+            modelBuilder.Entity("T.STORE.SYSTEM.Domain.Entities.SystemLog", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<DateTime?>("CreateTime");
+
+                    b.Property<string>("Exception");
+
+                    b.Property<DateTime>("LogDate")
+                        .HasMaxLength(6);
+
+                    b.Property<string>("LogLevel")
+                        .IsRequired()
+                        .HasMaxLength(50);
+
+                    b.Property<string>("LogType")
+                        .IsRequired()
+                        .HasMaxLength(50);
+
+                    b.Property<string>("Logger")
+                        .IsRequired()
+                        .HasMaxLength(256);
+
+                    b.Property<string>("MachineIp")
+                        .HasMaxLength(50);
+
+                    b.Property<string>("MachineName")
+                        .HasMaxLength(50);
+
+                    b.Property<string>("Message");
+
+                    b.Property<string>("NetRequestMethod")
+                        .HasMaxLength(10);
+
+                    b.Property<string>("NetRequestUrl")
+                        .HasMaxLength(500);
+
+                    b.Property<string>("NetUserAuthtype")
+                        .HasMaxLength(50);
+
+                    b.Property<string>("NetUserIdentity")
+                        .HasMaxLength(50);
+
+                    b.Property<string>("NetUserIsauthenticated")
+                        .HasMaxLength(10);
+
+                    b.Property<byte[]>("TenantId")
+                        .HasConversion(new ValueConverter<byte[], byte[]>(v => default(byte[]), v => default(byte[]), new ConverterMappingHints(size: 16)));
+
+                    b.HasKey("Id");
+
+                    b.ToTable("SystemLog");
                 });
 
             modelBuilder.Entity("T.STORE.SYSTEM.Domain.Entities.User", b =>
@@ -75,24 +139,33 @@ namespace T.STORE.SYSTEM.EntityFrameworkCore.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Account");
+                    b.Property<string>("Account")
+                        .IsRequired()
+                        .HasMaxLength(100);
 
-                    b.Property<string>("ApiKey");
+                    b.Property<string>("ApiKey")
+                        .IsRequired()
+                        .HasMaxLength(100);
 
                     b.Property<DateTime?>("CreateTime");
 
-                    b.Property<string>("Password");
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasMaxLength(100);
 
                     b.Property<byte[]>("TenantId")
                         .HasConversion(new ValueConverter<byte[], byte[]>(v => default(byte[]), v => default(byte[]), new ConverterMappingHints(size: 16)));
 
-                    b.Property<string>("UserName");
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasMaxLength(100);
 
-                    b.Property<int?>("departmentId");
+                    b.Property<byte[]>("departmentId")
+                        .HasConversion(new ValueConverter<byte[], byte[]>(v => default(byte[]), v => default(byte[]), new ConverterMappingHints(size: 16)));
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("User");
                 });
 
             modelBuilder.Entity("T.STORE.SYSTEM.Domain.Entities.UserRole", b =>
@@ -102,16 +175,20 @@ namespace T.STORE.SYSTEM.EntityFrameworkCore.Migrations
 
                     b.Property<DateTime?>("CreateTime");
 
-                    b.Property<int>("RoleId");
+                    b.Property<byte[]>("RoleId")
+                        .IsRequired()
+                        .HasConversion(new ValueConverter<byte[], byte[]>(v => default(byte[]), v => default(byte[]), new ConverterMappingHints(size: 16)));
 
                     b.Property<byte[]>("TenantId")
                         .HasConversion(new ValueConverter<byte[], byte[]>(v => default(byte[]), v => default(byte[]), new ConverterMappingHints(size: 16)));
 
-                    b.Property<int>("UserId");
+                    b.Property<byte[]>("UserId")
+                        .IsRequired()
+                        .HasConversion(new ValueConverter<byte[], byte[]>(v => default(byte[]), v => default(byte[]), new ConverterMappingHints(size: 16)));
 
                     b.HasKey("Id");
 
-                    b.ToTable("UserRoles");
+                    b.ToTable("UserRole");
                 });
 #pragma warning restore 612, 618
         }

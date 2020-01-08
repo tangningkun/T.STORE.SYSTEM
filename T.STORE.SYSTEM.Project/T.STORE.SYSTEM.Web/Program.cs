@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using NLog.Web;
 using T.STORE.SYSTEM.EntityFrameworkCore;
 using T.STORE.SYSTEM.EntityFrameworkCore.Migrations.SeedData;
 
@@ -44,6 +45,10 @@ namespace T.STORE.SYSTEM.Web
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+                .UseStartup<Startup>()
+            .ConfigureLogging(logging => {
+                logging.ClearProviders();
+                logging.SetMinimumLevel(LogLevel.Information);
+            }).UseNLog();
     }
 }

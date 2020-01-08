@@ -4,6 +4,31 @@
         <name>T.STORE.SYSTEM.WebApi</name>
     </assembly>
     <members>
+        <member name="M:T.STORE.SYSTEM.WebApi.CommonUtils.NLogUtil.WriteDBLog(NLog.LogLevel,T.STORE.SYSTEM.WebApi.CommonUtils.LogType,System.String,System.Exception)">
+            <summary>
+            写日志到数据库
+            </summary>
+            <param name="logLevel">日志等级</param>
+            <param name="logType">日志类型</param>
+            <param name="message">信息</param>
+            <param name="exception">异常</param>
+        </member>
+        <member name="M:T.STORE.SYSTEM.WebApi.CommonUtils.NLogUtil.WriteFileLog(NLog.LogLevel,T.STORE.SYSTEM.WebApi.CommonUtils.LogType,System.String,System.Exception)">
+            <summary>
+            写日志到文件
+            </summary>
+            <param name="logLevel">日志等级</param>
+            <param name="logType">日志类型</param>
+            <param name="message">信息</param>
+            <param name="exception">异常</param>
+        </member>
+        <member name="M:T.STORE.SYSTEM.WebApi.CommonUtils.NLogUtil.EnsureNlogConfig(System.String,System.String)">
+            <summary>
+            确保NLog配置文件sql连接字符串正确
+            </summary>
+            <param name="nlogPath"></param>
+            <param name="sqlConnectionStr"></param>
+        </member>
         <member name="M:T.STORE.SYSTEM.WebApi.Common.AutofacHelper.GetAssemblyByName(System.String)">
             <summary>
             根据程序集名称获取程序集

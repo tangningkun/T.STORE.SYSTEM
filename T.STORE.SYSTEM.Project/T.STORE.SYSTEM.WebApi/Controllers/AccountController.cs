@@ -24,17 +24,19 @@ namespace T.STORE.SYSTEM.WebApi.Controllers
         public async Task<IActionResult> getAllUser()
         {
             var model = new MessageModel();
+
             try
             {
+
                 model.data =await _userAppservice.GetAll(x => true);
             }
             catch (Exception e)
             {
                 model.status = EnResultStatus.失败;
                 model.msg = e.Message;
+                return new ResponseMessageResult(HttpContext.GetHttpRequestMessage().CreateResponse(HttpStatusCode.InternalServerError, model));
             }
-            var responseMessage = HttpContext.GetHttpRequestMessage().CreateResponse(HttpStatusCode.OK, model);
-            return new ResponseMessageResult(responseMessage);
+            return new ResponseMessageResult(HttpContext.GetHttpRequestMessage().CreateResponse(HttpStatusCode.OK, model));
         }
     }
 }

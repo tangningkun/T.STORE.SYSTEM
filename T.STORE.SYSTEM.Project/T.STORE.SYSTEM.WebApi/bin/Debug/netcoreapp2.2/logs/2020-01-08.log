@@ -1,0 +1,36 @@
+2020-01-08 11:16:44.0160 | Error | 网站启动初始化数据异常 System.Exception: 网站启动初始化数据异常 ---> System.IO.FileNotFoundException: Could not find file 'C:\Program Files\IIS Express\nlog.config'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri)
+   at T.STORE.SYSTEM.WebApi.CommonUtils.NLogUtil.EnsureNlogConfig(String nlogPath, String sqlConnectionStr) in F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\CommonUtils\NLogUtil.cs:line 62
+   at T.STORE.SYSTEM.WebApi.Program.Main(String[] args) in F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\Program.cs:line 32
+   --- End of inner exception stack trace --- 
+ Program.Main => NLogUtil.WriteFileLog 
+
+2020-01-08 11:19:06.6504 | Error | 网站启动初始化数据异常 System.Exception: 网站启动初始化数据异常 ---> System.IO.FileNotFoundException: Could not find file 'C:\Program Files\IIS Express\nlog.config'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri)
+   at T.STORE.SYSTEM.WebApi.CommonUtils.NLogUtil.EnsureNlogConfig(String nlogPath, String sqlConnectionStr) in F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\CommonUtils\NLogUtil.cs:line 62
+   at T.STORE.SYSTEM.WebApi.Program.Main(String[] args) in F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\Program.cs:line 32
+   --- End of inner exception stack trace --- 
+ Program.Main => NLogUtil.WriteFileLog 
+

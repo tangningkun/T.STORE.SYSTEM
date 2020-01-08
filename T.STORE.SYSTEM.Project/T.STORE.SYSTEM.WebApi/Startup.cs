@@ -31,6 +31,10 @@ namespace T.STORE.SYSTEM.WebApi
             });
             services.AddTransient<AppConfigurtaion>();
             services.AddMvc().AddWebApiConventions();
+            services.AddMvc(options =>
+            {
+                options.Filters.Add<Filters.GlobalExceptionFilter>();//全局异常类
+            });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             //添加数据库上下文和配置数据库连接字符串
             StoreDbContext.ConnectionString = Configuration.GetConnectionString("Default");
@@ -82,7 +86,6 @@ namespace T.STORE.SYSTEM.WebApi
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "T.STORE.SYSTEM.WebApi");
             });
             #endregion
-
             app.UseHttpsRedirection();
             app.UseMvc();
         }
