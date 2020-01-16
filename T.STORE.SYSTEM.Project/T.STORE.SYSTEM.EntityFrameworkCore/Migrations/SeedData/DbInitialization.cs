@@ -27,7 +27,7 @@ namespace T.STORE.SYSTEM.EntityFrameworkCore.Migrations.SeedData
                         new User{
                            TenantId=userGuid,
                            Account="超级管理员",
-                           UserName="admin",
+                           UserName="1209229446@qq.com",
                            Password=Utils.EncryptDES("123qwe"),
                            CreateTime=DateTime.Now,
                            ApiKey=CreateApiKey.GetRandomCode(10)

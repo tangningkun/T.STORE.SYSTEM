@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using NLog.Web;
 using T.STORE.SYSTEM.EntityFrameworkCore;
+using T.STORE.SYSTEM.EntityFrameworkCore.Migrations.SeedData;
 using T.STORE.SYSTEM.WebApi.CommonUtils;
 
 namespace T.STORE.SYSTEM.WebApi
@@ -40,7 +41,7 @@ namespace T.STORE.SYSTEM.WebApi
                     {
                         var context = new StoreDbContext();
                         context.Database.Migrate();
-                        //DbInitialization.Initialize(services);
+                        DbInitialization.Initialize(services);
                         NLogUtil.WriteDBLog(NLog.LogLevel.Trace, LogType.DataBase, "数据库连接成功");
                     }
                     catch (Exception e)
@@ -60,7 +61,7 @@ namespace T.STORE.SYSTEM.WebApi
             {
                 //NLog: catch setup errors
                 //使用nlog写到本地日志文件（万一数据库没创建/连接成功）
-                string errorMessage = "网站启动初始化数据异常";
+                string errorMessage = "接口启动初始化数据异常";
                 NLogUtil.WriteFileLog(NLog.LogLevel.Error, LogType.ApiRequest, errorMessage, new Exception(errorMessage, ex));
                 NLogUtil.WriteDBLog(NLog.LogLevel.Error, LogType.ApiRequest, errorMessage, new Exception(errorMessage, ex));
                 throw;

@@ -152,22 +152,6 @@ namespace T.STORE.SYSTEM.Repository.EntityFramework
 
         #region 更新
 
-        /// <summary>
-        /// 更新现有实体
-        /// </summary>
-        /// <param name="id">Id</param>
-        /// <param name="updateAction">可用于更改实体值的操作</param>
-        /// <returns>更新的实体</returns>
-        void Update(int id, Action<TEntity> updateAction);
-
-        /// <summary>
-        /// 更新现有实体
-        /// </summary>
-        /// <param name="id">实体的ID</param>
-        /// <param name="updateAction">可用于更改实体值的操作</param>
-        /// <returns>更新了实体</returns>
-        Task UpdateAsync(int id, Func<TEntity, Task> updateAction);
-
 
         Task<bool> EditEntityAsync(TEntity entity);
 
@@ -178,14 +162,14 @@ namespace T.STORE.SYSTEM.Repository.EntityFramework
         /// <param name="predicate">查询条件</param>
         /// <param name="updateExpression">更新数据</param>
         /// <returns></returns>
-        bool UpdateEntity(Expression<Func<TEntity, bool>> predicate, Expression<Func<TEntity, TEntity>> updateExpression);
+        bool EditEntity(Expression<Func<TEntity, bool>> predicate, Expression<Func<TEntity, TEntity>> updateExpression);
         /// <summary>
         /// 异步批量更新数据
         /// </summary>
         /// <param name="predicate">查询条件</param>
         /// <param name="updateExpression">更新数据</param>
         /// <returns></returns>
-        Task<bool> UpdateEntityAsync(Expression<Func<TEntity, bool>> predicate, Expression<Func<TEntity, TEntity>> updateExpression);
+        Task<bool> EditEntityAsync(Expression<Func<TEntity, bool>> predicate, Expression<Func<TEntity, TEntity>> updateExpression);
 
         #endregion
     }

@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using T.STORE.SYSTEM.Core.AutoMapper;
 
 namespace T.STORE.SYSTEM.WebApi.Common
 {
@@ -29,6 +30,9 @@ namespace T.STORE.SYSTEM.WebApi.Common
             builder.RegisterModule<RepositoryModule>();
             //创建容器
             IContainer container = builder.Build();
+
+            // AutoMapper的配置初始化
+            new AutoMapperStartupTask().Execute();
 
             return new AutofacServiceProvider(container);
         }

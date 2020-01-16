@@ -36,6 +36,13 @@
             <param name="AssemblyName">程序集名称</param>
             <returns></returns>
         </member>
+        <member name="M:T.STORE.SYSTEM.WebApi.Filters.ErrorHandlingExtensions.UseErrorHandling(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            加入中间管道
+            </summary>
+            <param name="builder"></param>
+            <returns></returns>
+        </member>
         <member name="P:T.STORE.SYSTEM.WebApi.Model.MessageModel.status">
             <summary>
             0：失败，1：成功 其他

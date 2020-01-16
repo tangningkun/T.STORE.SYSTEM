@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
 using T.STORE.SYSTEM.EntityFrameworkCore;
 using T.STORE.SYSTEM.WebApi.Common;
+using T.STORE.SYSTEM.WebApi.Filters;
 
 namespace T.STORE.SYSTEM.WebApi
 {
@@ -68,17 +69,16 @@ namespace T.STORE.SYSTEM.WebApi
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
             else
             {
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
+                app.UseExceptionHandler("/error");
             }
-
-
+            app.UseErrorHandling();
             #region Swagger
             app.UseSwagger();
             app.UseSwaggerUI(c =>
@@ -91,3 +91,4 @@ namespace T.STORE.SYSTEM.WebApi
         }
     }
 }
+ 

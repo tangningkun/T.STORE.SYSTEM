@@ -27,7 +27,6 @@ namespace T.STORE.SYSTEM.WebApi.Controllers
 
             try
             {
-
                 model.data =await _userAppservice.GetAll(x => true);
             }
             catch (Exception e)
