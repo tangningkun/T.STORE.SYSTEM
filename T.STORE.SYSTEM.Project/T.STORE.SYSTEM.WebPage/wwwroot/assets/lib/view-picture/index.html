@@ -1,0 +1,39 @@
+<style>
+  .layui-carousel {
+    width: 1000px;
+    height: 600px;
+  }
+
+  .layui-carousel>[carousel-item]>div {
+    text-align: center;
+    line-height: 580px;
+    font-size: 40px;
+  }
+
+  .layui-carousel img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .picture-type {
+    text-align: center;
+    margin: 10px;
+  }
+</style>
+<div class="layui-carousel">
+  <div carousel-item="">
+  </div>
+</div>
+{{# if (d.isGroup) { }}
+<form class="layui-form" action="">
+  <div class="layui-form-item t-c">
+    <div class="layui-input-block" style="margin:0;">
+      <input type="radio" name="type" value="1" title="建设档案" checked>
+      <input type="radio" name="type" value="2" title="管理档案">
+      <input type="radio" name="type" value="3" title="养护档案">
+      <input type="radio" name="type" value="4" title="运营档案">
+    </div>
+  </div>
+</form>
+{{# }}}

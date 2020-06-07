@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T.STORE.SYSTEM.Repository",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T.STORE.SYSTEM.WebApi", "T.STORE.SYSTEM.WebApi\T.STORE.SYSTEM.WebApi.csproj", "{569AFC64-E89E-44EE-A19D-B83129BE0BEE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T.STORE.SYSTEM.WebPage", "T.STORE.SYSTEM.WebPage\T.STORE.SYSTEM.WebPage.csproj", "{5D675F4C-0442-4163-AC72-DD9BBDFDD50F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{569AFC64-E89E-44EE-A19D-B83129BE0BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{569AFC64-E89E-44EE-A19D-B83129BE0BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{569AFC64-E89E-44EE-A19D-B83129BE0BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D675F4C-0442-4163-AC72-DD9BBDFDD50F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D675F4C-0442-4163-AC72-DD9BBDFDD50F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D675F4C-0442-4163-AC72-DD9BBDFDD50F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D675F4C-0442-4163-AC72-DD9BBDFDD50F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

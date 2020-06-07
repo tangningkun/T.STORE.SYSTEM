@@ -8,9 +8,17 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\T.STORE.SYSTEM.WebApi.xml</DocumentationFile>
+    <DocumentationFile>E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\T.STORE.SYSTEM.WebApi.xml</DocumentationFile>
     <NoWarn>1701;1702;1591</NoWarn>
+    <WarningLevel>2</WarningLevel>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Attributes\**" />
+    <Content Remove="Attributes\**" />
+    <EmbeddedResource Remove="Attributes\**" />
+    <None Remove="Attributes\**" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Autofac" Version="4.9.4" />
@@ -41,10 +49,6 @@
     <Content Update="nlog.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Attributes\" />
   </ItemGroup>
 
 </Project>

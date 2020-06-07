@@ -1,0 +1,33 @@
+<style>
+  .layui-upload-list {
+    width: 800px;
+  }
+</style>
+<div class="layui-upload">
+  <button type="button" class="layui-btn layui-btn-primary" id="btn-upload-list">选择文件</button>
+  <button type="button" class="layui-btn layui-btn-normal" id="btn-upload-start">开始上传</button>
+  <div class="layui-upload-list">
+    <table class="layui-table">
+      <thead>
+        <tr>
+          <th>文件名</th>
+          <th>大小</th>
+          <th>状态</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody id="table-upload-list"></tbody>
+    </table>
+  </div>
+</div>
+<script type="text/html" id="trTpl">
+<tr id="upload-{{d.index}}">
+  <td>{{d.file.name}}</td>
+  <td>{{(d.file.size / 1024).toFixed(1)}}kb</td>
+  <td>等待上传</td>
+  <td>
+    <button class="layui-btn layui-btn-xs btn-upload-reload layui-hide">重传</button>
+    <button class="layui-btn layui-btn-xs layui-btn-danger btn-upload-delete">删除</button>
+  </td>
+</tr>
+</script>

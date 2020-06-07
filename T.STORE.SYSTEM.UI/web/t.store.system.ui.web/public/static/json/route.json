@@ -1,0 +1,62 @@
+{
+  "code": 20000,
+  "success": true,
+  "content": {
+    "dataPerms": [
+      { "code": "roleMan:create" },
+      { "code": "roleMan:update" },
+      { "code": "roleMan:delete" },
+      { "code": "roleMan:bindUser" },
+      { "code": "roleMan:permissions" }
+    ],
+    "mod": [
+      {
+        "id": 1,
+        "pid": -1,
+        "code": "-1",
+        "name": "平台端",
+        "component": -1,
+        "icon": null,
+        "sort": 1
+      },
+      {
+        "id": 3,
+        "pid": 1,
+        "code": "setting",
+        "name": "设置",
+        "component": 2,
+        "icon": "iconfont icon-setting",
+        "sort": 2
+      },
+      {
+        "id": 4,
+        "pid": 3,
+        "code": "setting-1",
+        "name": "设置页面一",
+        "component": 1,
+        "icon": null,
+        "sort": 3
+      },
+      {
+        "id": 5,
+        "pid": 3,
+        "code": "setting-2",
+        "name": "设置页面二",
+        "component": 1,
+        "icon": null,
+        "sort": 4
+      },
+      {
+        "id": 6,
+        "pid": 3,
+        "code": "setting-3",
+        "name": "设置页面三",
+        "component": 1,
+        "icon": null,
+        "sort": 5
+      }
+    ]
+  },
+
+  "message": "操作成功"
+}

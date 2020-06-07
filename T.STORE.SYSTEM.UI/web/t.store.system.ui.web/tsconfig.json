@@ -1,15 +1,31 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "dom",
+      "es2015"
+    ],
     "module": "esnext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "esnext",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    // "target": "es2015",
+    // "module": "es2015",
+    // "moduleResolution": "node",
+    // "experimentalDecorators": true,
+    // "emitDecoratorMetadata": true,
     "strict": true,
     "jsx": "preserve",
     "importHelpers": true,
-    "moduleResolution": "node",
-    "experimentalDecorators": true,
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "sourceMap": true,
+    // "allowSyntheticDefaultImports": true,
+    // "sourceMap": true,
     "baseUrl": ".",
     "types": [
       "webpack-env"
@@ -19,12 +35,12 @@
         "src/*"
       ]
     },
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable",
-      "scripthost"
-    ]
+    // "lib": [
+    //   "es2015",
+    //   "dom",
+    //   "dom.iterable",
+    //   "scripthost"
+    // ]
   },
   "include": [
     "src/**/*.ts",

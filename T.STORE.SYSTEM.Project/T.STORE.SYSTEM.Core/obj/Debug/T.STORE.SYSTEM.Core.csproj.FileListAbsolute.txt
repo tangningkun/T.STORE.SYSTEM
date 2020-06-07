@@ -21,3 +21,17 @@ F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.
 F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\bin\Debug\AutoMapper.dll
 F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\bin\Debug\AutoMapper.pdb
 F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\bin\Debug\AutoMapper.xml
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\bin\Debug\T.STORE.SYSTEM.Core.dll
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\bin\Debug\T.STORE.SYSTEM.Core.pdb
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\bin\Debug\AutoMapper.dll
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\bin\Debug\Newtonsoft.Json.dll
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\bin\Debug\System.ValueTuple.dll
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\bin\Debug\AutoMapper.pdb
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\bin\Debug\AutoMapper.xml
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\bin\Debug\Newtonsoft.Json.xml
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\bin\Debug\System.ValueTuple.xml
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\obj\Debug\T.STORE.SYSTEM.Core.csproj.CoreCompileInputs.cache
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\obj\Debug\T.STORE.SYSTEM.Core.csproj.CopyComplete
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\obj\Debug\T.STORE.SYSTEM.Core.dll
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\obj\Debug\T.STORE.SYSTEM.Core.pdb
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.Core\obj\Debug\T.STORE.SYSTEM.Core.csprojAssemblyReference.cache

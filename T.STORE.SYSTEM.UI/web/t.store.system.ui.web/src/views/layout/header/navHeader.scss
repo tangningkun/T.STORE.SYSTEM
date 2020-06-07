@@ -1,0 +1,127 @@
+@import '../../../styles/bass.scss';
+.header {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  font-size: 22px;
+  color: #fff;
+  background-color: $header-primary-color;
+  // border-bottom: 1px solid #2e3a43;
+  .collapse-btn {
+    width: 48px;
+    float: left;
+    cursor: pointer;
+    line-height: 48px;
+    height: 48px;
+    img {
+      width: 40px;
+      border-radius: 20px;
+      margin: 4px 0px 0px 4px;
+    }
+  }
+  .logo {
+    float: left;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;
+    //padding-left: 50px;
+    position: relative;
+    .logoicon {
+      position: absolute;
+      height: 48px;
+      line-height: 48px;
+      width: 48px;
+      min-height: 48px;
+      right: -48px;
+      top: 0px;
+      cursor: pointer;
+      // border-left: 1px solid #fff;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .header-right {
+    float: right;
+    padding-right: 20px;
+    .header-user-con {
+      display: flex;
+      height: 48px;
+      line-height: 48px;
+      min-height: 48px;
+      max-height: 48px;
+      align-items: center;
+      .user-avator {
+        margin-left: 20px;
+        img {
+          display: block;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+        }
+      }
+      .btn-time {
+        margin-right: 20px;
+        height: 48px;
+        line-height: 48px;
+        min-height: 48px;
+        max-height: 48px;
+        cursor: pointer;
+        font-family: '微软雅黑';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 12px;
+        color: #ffffff;
+        i {
+          font-family: '微软雅黑';
+          font-weight: 400;
+          font-style: normal;
+          font-size: 12px;
+          color: #ffffff;
+        }
+        span {
+          margin-left: 5px;
+          font-family: '微软雅黑';
+          font-weight: 400;
+          font-style: normal;
+          font-size: 12px;
+          color: #ffffff;
+        }
+      }
+      .btn-fullscreen {
+        transform: rotate(45deg);
+        margin-right: 5px;
+        font-size: 24px;
+      }
+      .btn-bell,
+      .btn-fullscreen {
+        position: relative;
+        text-align: center;
+        border-radius: 15px;
+        cursor: pointer;
+      }
+      .btn-bell-badge {
+        position: absolute;
+        right: 0;
+        top: -2px;
+        width: 8px;
+        height: 8px;
+        border-radius: 4px;
+        background: #f56c6c;
+        color: #fff;
+      }
+      .btn-bell .el-icon-bell {
+        color: #fff;
+      }
+      .el-dropdown-link {
+        color: #fff;
+        cursor: pointer;
+      }
+      .el-dropdown-menu__item {
+        text-align: center;
+      }
+    }
+  }
+}

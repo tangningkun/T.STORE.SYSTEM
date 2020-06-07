@@ -1,10 +1,19 @@
+/*
+ * @Descripttion:
+ * @version: 1.0
+ * @Author: 唐宁坤
+ * @Date: 2020-04-12 10:30:44
+ * @LastEditors: 唐宁坤
+ * @LastEditTime: 2020-06-05 16:10:47
+ */
+
 import { Vue, Component, Watch } from 'vue-property-decorator';
-import echarts, { EChartOption } from 'echarts';
+//import echarts, { EChartOption } from 'echarts';
 /* import '../../../node_modules/echarts/dist/echarts.min.js';
 declare var echarts: any;
 declare var $: any; */
 @Component({
-  name: 'home'
+  name: 'home',
 })
 export default class Home extends Vue {
   public screenWidth: any = document.documentElement.clientWidth; // 屏幕宽度
@@ -14,94 +23,6 @@ export default class Home extends Vue {
     { title: '问题数', type: 'questions', total: 11, icon: 'el-icon-question' },
     { title: '文章数', type: 'articles', total: 12, icon: 'el-icon-collection' },
     { title: '专栏数', type: 'columns', total: 14, icon: 'el-icon-s-order' },
-    { title: '用户数', type: 'users', total: 55, icon: 'el-icon-s-custom' }
+    { title: '用户数', type: 'users', total: 55, icon: 'el-icon-s-custom' },
   ];
-  public charts() {
-    let myChart = echarts.init(this.$refs.echarts as HTMLDivElement);
-
-    let colors = ['#5793f3', '#d14a61', '#675bba'];
-    let option: EChartOption = {
-      color: colors,
-      tooltip: {
-        trigger: 'none',
-        axisPointer: {
-          type: 'cross'
-        }
-      },
-      legend: {
-        data: ['2015 降水量', '2016 降水量']
-      },
-      grid: {
-        top: 70,
-        bottom: 50
-      },
-      xAxis: [
-        {
-          type: 'category',
-          axisTick: {
-            alignWithLabel: true
-          },
-          axisLine: {
-            onZero: false,
-            lineStyle: {
-              color: colors[1]
-            }
-          },
-          axisPointer: {
-            label: {
-              formatter(params: any) {
-                return '降水量  ' + params.value + (params.seriesData.length ? '：' + params.seriesData[0].data : '');
-              }
-            }
-          },
-          data: ['2016-1', '2016-2', '2016-3', '2016-4', '2016-5', '2016-6', '2016-7', '2016-8', '2016-9', '2016-10', '2016-11', '2016-12']
-        },
-        {
-          type: 'category',
-          axisTick: {
-            alignWithLabel: true
-          },
-          axisLine: {
-            onZero: false,
-            lineStyle: {
-              color: colors[0]
-            }
-          },
-          axisPointer: {
-            label: {
-              formatter(params: any) {
-                return '降水量  ' + params.value + (params.seriesData.length ? '：' + params.seriesData[0].data : '');
-              }
-            }
-          },
-          data: ['2015-1', '2015-2', '2015-3', '2015-4', '2015-5', '2015-6', '2015-7', '2015-8', '2015-9', '2015-10', '2015-11', '2015-12']
-        }
-      ],
-      yAxis: [
-        {
-          type: 'value'
-        }
-      ],
-      series: [
-        {
-          name: '2015 降水量',
-          type: 'line',
-          xAxisIndex: 1,
-          smooth: true,
-          data: [2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3]
-        },
-        {
-          name: '2016 降水量',
-          type: 'line',
-          smooth: true,
-          data: [3.9, 5.9, 11.1, 18.7, 48.3, 69.2, 231.6, 46.6, 55.4, 18.4, 10.3, 0.7]
-        }
-      ]
-    };
-    // 使用刚指定的配置项和数据显示图表。
-    myChart.setOption(option);
-  }
-  public mounted() {
-    this.charts();
-  }
 }

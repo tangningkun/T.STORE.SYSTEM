@@ -1,0 +1,31 @@
+<div class="layui-form-item">
+  {{# layui.each(d.lists, function(index, list){ }}
+  <div class="layui-inline">
+    <label class="layui-form-label" title="{{list.title}}">{{list.title}}</label>
+    <div class="layui-input-inline">
+      <select id="select-{{list.name}}">
+        {{# layui.each(list.items, function(index, item){ }}
+        <option value="{{item.id}}">{{item.name}}</option>
+        {{# }); }}
+      </select>
+    </div>
+  </div>
+  {{# }); }}
+  {{# layui.each(d.fields, function(index, item){ }}
+  <div class="layui-inline">
+    <label class="layui-form-label" title="{{item.title}}">{{item.title}}</label>
+    <div class="layui-input-inline">
+      <input type="text" id="input-{{item.name}}" autocomplete="off" class="layui-input input-field">
+    </div>
+  </div>
+  {{# }); }}
+
+  <div class="layui-inline">
+    <button class="layui-btn layui-btn-normal" id="btn-add-{{d.name}}">添加</button>
+  </div>
+  <p class="object-tag-list">
+    {{# layui.each(d.data, function(index, item){ }}
+    <span class="layui-badge-rim">{{d.getText(item)}}<i class="layui-icon">&#x1006;</i></span>
+    {{# }); }}
+  </p>
+</div>

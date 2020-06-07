@@ -1,0 +1,17 @@
+/* 主题色 */
+$header-primary-color: #3489fd;
+$aside-primary-color: #001529;
+$main-primary-color: #3489fd;
+
+$primary-color: #3489fd;
+
+$background-color: rgb(255, 255, 255);
+$font-color: rgb(255, 255, 255);
+
+$g_font_c: rgb(100, 100, 100); // 一般字体颜色
+$g_theme: #3489fd; // ElementUI全局背景颜色
+
+:export {
+  theme: $g_theme;
+  textColor: $g_font_c;
+}

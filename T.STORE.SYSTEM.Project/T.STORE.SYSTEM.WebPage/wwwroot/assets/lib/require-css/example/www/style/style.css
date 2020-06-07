@@ -1,0 +1,6 @@
+﻿/* module.css */
+/* used by app.js */
+@import url('/test.css');
+body {
+  font-family: sans-serif;
+}

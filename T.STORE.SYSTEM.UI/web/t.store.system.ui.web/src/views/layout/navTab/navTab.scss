@@ -1,0 +1,43 @@
+@import '../../../styles/bass.scss';
+.el-menu {
+  background-color: $aside-primary-color;
+  border-right: none;
+}
+.el-submenu {
+  background-color: $aside-primary-color;
+}
+
+.el-submenu__title:hover {
+  background-color: #1e457a !important;
+}
+
+.el-menu-item:hover {
+  background-color: #1e457a;
+}
+.el-menu-item:focus {
+  color: #3489fd;
+  background-color: #304051;
+}
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 400px;
+  text-align: left;
+  ::v-deep {
+    .el-submenu__title {
+      color: #fff;
+      background-color: #001529;
+    }
+    .is-active {
+      /* color: #ff4040 !important; */
+      background-color: #304051;
+      color: #ffffff;
+    }
+  }
+}
+.el-menu-item .is-active {
+  /* color: #ff4040 !important; */
+  background-color: #304051;
+  color: #ffffff;
+}

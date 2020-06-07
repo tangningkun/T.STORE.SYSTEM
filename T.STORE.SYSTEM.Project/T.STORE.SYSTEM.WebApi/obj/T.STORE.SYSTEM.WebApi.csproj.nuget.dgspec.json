@@ -1,29 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.WebApi\\T.STORE.SYSTEM.WebApi.csproj": {}
+    "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.WebApi\\T.STORE.SYSTEM.WebApi.csproj": {}
   },
   "projects": {
-    "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Application\\T.STORE.SYSTEM.Application.csproj": {
+    "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Application\\T.STORE.SYSTEM.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Application\\T.STORE.SYSTEM.Application.csproj",
+        "projectUniqueName": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Application\\T.STORE.SYSTEM.Application.csproj",
         "projectName": "T.STORE.SYSTEM.Application",
-        "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Application\\T.STORE.SYSTEM.Application.csproj",
+        "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Application\\T.STORE.SYSTEM.Application.csproj",
         "frameworks": {
           "net461": {
             "projectReferences": {
-              "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj": {
-                "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj"
+              "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj": {
+                "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj"
               },
-              "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj": {
-                "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj"
+              "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj": {
+                "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj"
               },
-              "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj": {
-                "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj"
+              "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj": {
+                "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj"
               },
-              "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Repository\\T.STORE.SYSTEM.Repository.csproj": {
-                "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Repository\\T.STORE.SYSTEM.Repository.csproj"
+              "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Repository\\T.STORE.SYSTEM.Repository.csproj": {
+                "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Repository\\T.STORE.SYSTEM.Repository.csproj"
               }
             }
           }
@@ -33,28 +33,28 @@
         "net461": {}
       }
     },
-    "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj": {
+    "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj",
+        "projectUniqueName": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj",
         "projectName": "T.STORE.SYSTEM.Core",
-        "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj"
+        "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj"
       },
       "frameworks": {
         "net461": {}
       }
     },
-    "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj": {
+    "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj",
+        "projectUniqueName": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj",
         "projectName": "T.STORE.SYSTEM.Domain",
-        "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj",
+        "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj",
         "frameworks": {
           "net461": {
             "projectReferences": {
-              "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj": {
-                "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj"
+              "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj": {
+                "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj"
               }
             }
           }
@@ -64,20 +64,20 @@
         "net461": {}
       }
     },
-    "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj": {
+    "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj",
+        "projectUniqueName": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj",
         "projectName": "T.STORE.SYSTEM.EntityFrameworkCore",
-        "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj",
+        "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj",
         "frameworks": {
           "net461": {
             "projectReferences": {
-              "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj": {
-                "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj"
+              "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj": {
+                "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj"
               },
-              "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj": {
-                "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj"
+              "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj": {
+                "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj"
               }
             }
           }
@@ -87,20 +87,23 @@
         "net461": {}
       }
     },
-    "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Repository\\T.STORE.SYSTEM.Repository.csproj": {
+    "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Repository\\T.STORE.SYSTEM.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Repository\\T.STORE.SYSTEM.Repository.csproj",
+        "projectUniqueName": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Repository\\T.STORE.SYSTEM.Repository.csproj",
         "projectName": "T.STORE.SYSTEM.Repository",
-        "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Repository\\T.STORE.SYSTEM.Repository.csproj",
+        "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Repository\\T.STORE.SYSTEM.Repository.csproj",
         "frameworks": {
           "net461": {
             "projectReferences": {
-              "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj": {
-                "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj"
+              "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj": {
+                "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj"
               },
-              "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj": {
-                "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj"
+              "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj": {
+                "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj"
+              },
+              "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj": {
+                "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj"
               }
             }
           }
@@ -110,22 +113,18 @@
         "net461": {}
       }
     },
-    "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.WebApi\\T.STORE.SYSTEM.WebApi.csproj": {
+    "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.WebApi\\T.STORE.SYSTEM.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.WebApi\\T.STORE.SYSTEM.WebApi.csproj",
+        "projectUniqueName": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.WebApi\\T.STORE.SYSTEM.WebApi.csproj",
         "projectName": "T.STORE.SYSTEM.WebApi",
-        "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.WebApi\\T.STORE.SYSTEM.WebApi.csproj",
-        "packagesPath": "C:\\Users\\TT\\.nuget\\packages\\",
-        "outputPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.WebApi\\obj\\",
+        "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.WebApi\\T.STORE.SYSTEM.WebApi.csproj",
+        "packagesPath": "C:\\Users\\TangNingKun\\.nuget\\packages\\",
+        "outputPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.WebApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\TT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\TangNingKun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -137,17 +136,17 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Application\\T.STORE.SYSTEM.Application.csproj": {
-                "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Application\\T.STORE.SYSTEM.Application.csproj"
+              "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Application\\T.STORE.SYSTEM.Application.csproj": {
+                "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Application\\T.STORE.SYSTEM.Application.csproj"
               },
-              "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj": {
-                "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj"
+              "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj": {
+                "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Core\\T.STORE.SYSTEM.Core.csproj"
               },
-              "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj": {
-                "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj"
+              "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj": {
+                "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.Domain\\T.STORE.SYSTEM.Domain.csproj"
               },
-              "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj": {
-                "projectPath": "H:\\A Program Repository(程序仓库)\\2019-12-10\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj"
+              "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj": {
+                "projectPath": "E:\\A Program Repository\\2020-04-12\\T.STORE.SYSTEM\\T.STORE.SYSTEM.Project\\T.STORE.SYSTEM.EntityFrameworkCore\\T.STORE.SYSTEM.EntityFrameworkCore.csproj"
               }
             }
           }
@@ -161,6 +160,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Autofac": {
               "target": "Package",
               "version": "[4.9.4, )"
@@ -174,6 +177,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Mvc.WebApiCompatShim": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
@@ -190,13 +197,37 @@
               "target": "Package",
               "version": "[1.0.2105168, )"
             },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.18, )"
+            },
             "MySql.Data.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.18, )"
             },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.6.8, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
             }
           },
           "imports": [
@@ -209,7 +240,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

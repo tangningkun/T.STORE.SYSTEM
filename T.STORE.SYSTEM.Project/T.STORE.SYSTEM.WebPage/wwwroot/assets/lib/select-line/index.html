@@ -1,0 +1,26 @@
+<style>
+  .div-line-table {
+    width: 400px;
+  }
+</style>
+<button class="layui-btn layui-btn-normal" id="btn-select-line">选择线路</button>
+<div class="layui-form-item div-line-table">
+  <table class="layui-table" id="line-table">
+    <thead>
+      <tr>
+        <th>线路名称</th>
+        <th>操作</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>
+<script type="text/html" id="trTpl">
+  <tr>
+    <td>{{ d.name }}</td>
+    <td>
+      <button class="layui-btn layui-btn-xs layui-btn-danger" id="btn-delete-line">删除</button>
+    </td>
+  </tr>
+</script>

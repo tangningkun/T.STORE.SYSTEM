@@ -17,6 +17,15 @@ namespace T.STORE.SYSTEM.Repository.EntityFramework
         {
             _dbContext = (StoreDbContext)DBContextFactory.CReateDbContext();
         }
+        public IQueryable<TEntity> Entities()
+        {
+            return _dbContext.Set<TEntity>().AsQueryable().AsNoTracking();
+        }
+        public int SaveChanges()
+        {
+            return _dbContext.SaveChanges();
+        }
+
 
         #region 其他
         /// <summary>

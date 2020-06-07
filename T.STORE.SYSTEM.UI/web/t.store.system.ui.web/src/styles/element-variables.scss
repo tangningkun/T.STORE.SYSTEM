@@ -1,0 +1,24 @@
+/*
+ * @Descripttion: 
+ * @version: 1.0
+ * @Author: 唐宁坤
+ * @Date: 2020-05-30 02:03:49
+ * @LastEditors: 唐宁坤
+ * @LastEditTime: 2020-05-30 16:13:02
+ */
+
+/* Element Variables */
+
+// Override Element UI variables
+$--color-primary: #1890ff;
+//iconfontpath,required
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+// Apply overrided variables in Element UI
+@import '~element-ui/packages/theme-chalk/src/index';
+
+// The :export directive is the magic sauce for webpack
+// https://mattferderer.com/use-sass-variables-in-typescript-and-javascript
+:export {
+  theme: $--color-primary;
+}

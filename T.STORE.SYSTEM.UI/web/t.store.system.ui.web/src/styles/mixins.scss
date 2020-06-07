@@ -1,0 +1,15 @@
+/*
+ * @Descripttion: 
+ * @version: 1.0
+ * @Author: 唐宁坤
+ * @Date: 2020-05-30 16:16:59
+ * @LastEditors: 唐宁坤
+ * @LastEditTime: 2020-05-30 16:18:49
+ */
+@mixin clearfix {
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}

@@ -12,6 +12,7 @@ using T.STORE.SYSTEM.Core.AutoMapper;
 
 namespace T.STORE.SYSTEM.WebApi.Common
 {
+    /* 依赖注入 */
     public class AutofacConfigure
     {
         public static AutofacServiceProvider Register(IServiceCollection services)

@@ -1,31 +1,28 @@
+<!--
+ * @Descripttion: 
+ * @version: 1.0
+ * @Author: 唐宁坤
+ * @Date: 2020-04-12 10:30:44
+ * @LastEditors: 唐宁坤
+ * @LastEditTime: 2020-06-06 23:50:52
+-->
 <!-- VUE -->
 <template>
-  <el-container class="main">
-    <el-aside :class="$store.state.isCollapse ? 'main-aside-false' : 'main-aside-true'">
-      <transition>
+  <el-container class="layout-wapper">
+    <el-header class="navHeader-wapper">
+      <NavHeader></NavHeader>
+    </el-header>
+    <el-container class="container-wapper">
+      <el-aside class="container-wapper-aside">
         <NavTab></NavTab>
-      </transition>
-    </el-aside>
-    <el-container class="main-container">
-      <el-header class="main-container-header">
-        <el-row>
-          <el-col :span="24" class="main-container-header-col-top">
-            <div class="grid-content bg-purple-dark">
-              <el-button
-                class="main-container-header-button"
-                icon="el-icon-s-operation"
-                @click="controlNav"
-              ></el-button>
-              <NavHeader></NavHeader>
-            </div>
-          </el-col>
-          <el-col :span="24" class="main-container-header-col-buttom"></el-col>
-        </el-row>
-      </el-header>
-      <el-main class="main-container-main">
-        <transition>
+      </el-aside>
+      <el-main class="container-main-wapper">
+        <div class="container-main-wapper-header">
+          <TagsView></TagsView>
+        </div>
+        <div class="container-main-wapper-content">
           <router-view />
-        </transition>
+        </div>
       </el-main>
     </el-container>
   </el-container>

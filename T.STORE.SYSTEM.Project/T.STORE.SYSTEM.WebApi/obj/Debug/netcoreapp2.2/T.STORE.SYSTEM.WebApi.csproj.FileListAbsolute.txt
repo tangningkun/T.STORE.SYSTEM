@@ -66,3 +66,37 @@ H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.P
 H:\A Program Repository(程序仓库)\2019-12-10\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.pdb
 F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.xml
 F:\1-A工作\工作\ASP.NET_CORE\2019-12-23-STORE\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\nlog.config
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\nlog.config
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.deps.json
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.runtimeconfig.json
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.runtimeconfig.dev.json
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.dll
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.pdb
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.xml
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Application.dll
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Core.dll
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Domain.dll
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.EntityFrameworkCore.dll
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Repository.dll
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\Z.EntityFramework.Extensions.dll
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\EntityFramework.dll
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Application.pdb
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Application.dll.config
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Core.pdb
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Domain.pdb
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.EntityFrameworkCore.pdb
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.EntityFrameworkCore.dll.config
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Repository.pdb
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\T.STORE.SYSTEM.Repository.dll.config
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\Z.EntityFramework.Extensions.xml
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\bin\Debug\netcoreapp2.2\EntityFramework.xml
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.csprojAssemblyReference.cache
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.csproj.CoreCompileInputs.cache
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.RazorAssemblyInfo.cache
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.RazorAssemblyInfo.cs
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.AssemblyInfoInputs.cache
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.AssemblyInfo.cs
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.RazorTargetAssemblyInfo.cache
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.csproj.CopyComplete
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.dll
+E:\A Program Repository\2020-04-12\T.STORE.SYSTEM\T.STORE.SYSTEM.Project\T.STORE.SYSTEM.WebApi\obj\Debug\netcoreapp2.2\T.STORE.SYSTEM.WebApi.pdb

@@ -1,0 +1,24 @@
+@import '../../../styles/bass.scss';
+.el-menu-item {
+  color: #fff;
+  background-color: $aside-primary-color;
+}
+.icon {
+  padding-right: 10px;
+  font-size: 20px;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.el-submenu__title:hover {
+  background-color: #304051;
+}
+
+.el-menu-item:hover {
+  background-color: #1e457a;
+}
+.el-menu-item:focus {
+  color: #3489fd;
+  background-color: #304051;
+}

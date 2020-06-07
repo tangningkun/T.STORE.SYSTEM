@@ -1,0 +1,616 @@
+/* global style start */
+.t-l {
+  text-align: left;
+}
+.t-c {
+  text-align: center;
+}
+.t-r {
+  text-align: right;
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.clear {
+  display: block;
+  content: '\20';
+  clear: both;
+  *zoom: 1;
+  height: 0
+}
+.layui-breadcrumb-container {
+  position: relative;
+  top: -20px;
+  left: -10px;
+  padding: 10px;
+  margin-right: -20px;
+  border-bottom: 1px solid #ccc;
+}
+.jstree-contextmenu {
+  z-index: 1000;
+}
+/* global style end */
+/* overrid layui start */
+.layui-body {
+  padding: 20px 10px;
+}
+.layui-layout-admin .layui-body {
+  bottom: 0;
+  overflow: auto;
+}
+.layui-layout-admin .layui-logo > a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    font-family: 'Î¢ÈíÑÅºÚ';
+}
+.layui-layout-admin .layui-logo > a:hover {
+  color: rgba(255, 255, 255);
+}
+.layui-layout-admin .layui-header {
+  background-color: #393d49;
+}
+.layui-form-label.align-left {
+  text-align: left;
+  padding-left: 0;
+  width: auto;
+}
+.layui-form-item.auto-width .layui-form-label {
+  width: auto;
+}
+.layui-input-inline.small {
+  width: 120px;
+}
+.layui-input-inline.xs {
+  width: 80px;
+}
+.layui-input-inline.lg {
+  width: 200px;
+}
+.laydate-theme-admin .layui-laydate-content td.laydate-selected {
+  background-color: #c5f3ee;
+}
+.layui-form-pane.form-basic-info .layui-form-label {
+  width: 160px;
+}
+.layui-side,
+.layui-nav {
+  background-color: #466496;
+}
+.layui-nav-tree .layui-nav-child dd.layui-this,
+.layui-nav-tree .layui-nav-child dd.layui-this a,
+.layui-nav-tree .layui-this,
+.layui-nav-tree .layui-this > a,
+.layui-nav-tree .layui-this > a:hover,
+.layui-nav-tree .layui-nav-item a:hover {
+  background-color: #5483bc;
+}
+.layui-layout-admin .layui-header {
+  background-color: #334464;
+}
+.layui-nav-tree .layui-nav-bar,
+.layui-nav .layui-this:after,
+.layui-nav-bar,
+.layui-nav-tree .layui-nav-itemed:after {
+  background-color: #6da2ff;
+}
+.layui-nav .layui-badge {
+  position: initial;
+}
+body {
+  font: 14px  Microsoft YaHei,Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-serif;
+}
+
+.layui-form-item.required-item {
+  position: relative;
+}
+.layui-form-item.required-item::after,
+.layui-input-inline.required-item::after,
+.layui-form-label.required-item::after {
+  position: absolute;
+  content: "*";
+  color: red;
+  font-weight: bold;
+  top: 50%;
+  left: 3px;
+  margin-top: -8px;
+}
+.layui-form-label.required-item::after {
+  left: 8px;
+}
+/* overrid layui end */
+
+/* modal style start */
+.modal-container {
+  padding: 10px;
+  max-height: 500px;
+  overflow: auto;
+}
+/* modal style end */
+
+/* menu style start */
+[class^='menu-icon'] {
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 16px;
+}
+.menu-icon-home {
+  background-image: url('/assets/image/menu/home.png');
+}
+.menu-icon-basic {
+  background-image: url('/assets/image/menu/basic.png');
+}
+.menu-icon-employee {
+  background-image: url('/assets/image/menu/employee.png');
+}
+.menu-icon-led {
+  background-image: url('/assets/image/menu/led.png');
+}
+.menu-icon-device {
+  background-image: url('/assets/image/menu/device.png');
+}
+.menu-icon-contract {
+  background-image: url('/assets/image/menu/contract.png');
+}
+.menu-icon-document {
+  background-image: url('/assets/image/menu/document.png');
+}
+.menu-icon-admin {
+  background-image: url('/assets/image/menu/admin.png');
+}
+/* menu style end */
+
+/* home style start */
+.layui-body.home-body {
+  background-color: #f0f3f6;
+  padding: 10px;
+}
+.home-chart-container {
+  margin: 0 auto;
+}
+.home-chart-container [class^=layui-col] {
+  height: 300px;
+  padding: 10px;
+  position: relative;
+}
+.home-chart {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.home-chart .empty-title {
+  position: absolute;
+  width: 100px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  display: none;
+}
+.chart-title {
+  height: 40px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #666666;
+  flex-shrink: 0;
+}
+.chart-title input {
+  height: 30px;
+  border-radius: 5px;
+}
+.chart-title span {
+  font-weight: bold;
+}
+.chart-content {
+  flex-grow: 1;
+}
+.chart-summary {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  padding-left: 10px;
+}
+#chart-disease-wrapper {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+#chart-disease {
+  flex-basis: 720px;
+  flex-shrink: 0;
+  position: relative;
+}
+#chart-disease img {
+  width: 100%;
+  height: 100%;
+}
+    #chart-disease i {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #ff3333;
+        cursor: pointer;
+    }
+#chart-disease-info {
+  flex-basis: 300px;
+  flex-shrink: 0;
+  padding: 10px;
+}
+#chart-disease-info h2 {
+  text-align: center;
+}
+#chart-disease-info li {
+  padding: 5px;
+  padding-left: 20px;
+  position: relative;
+  cursor: pointer;
+}
+#chart-disease-info li:hover {
+  background-color: #f3f3f3;
+}
+#chart-disease-info li::before {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  margin-top: -5px;
+  border-radius: 50%;
+  background-color: #64add2;
+}
+#chart-disease-info span {
+  float: right;
+  color: white;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+#chart-disease-info span.repaired {
+  background-color: #5cad33;
+}
+    #chart-disease-info span.not-repaired {
+        background-color: #ff3333;
+        border-radius: 10px;
+        font-size: 11px;
+        padding: 3px;
+        font-family: 'Î¢ÈíÑÅºÚ';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 12px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+/* home style end */
+
+/* role style start  */
+.permissions-container {
+  max-height: 350px;
+  overflow: auto;
+}
+/* role style end  */
+
+/* dictionary option style start */
+ul.option-list > li {
+  padding: 5px;
+  margin: 5px 0;
+  line-height: 22px;
+  background-color: #f3f3f3;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+ul.option-list > li:hover {
+  background-color: #dcdcdc;
+}
+
+ul.option-list > li > button {
+  float: right;
+}
+ul.option-list .layui-badge {
+  margin-right: 10px;
+}
+.position-toolbar {
+  margin: 10px;
+}
+.position-container {
+  width: 900px;
+  height: 300px;
+  margin: 10px auto;
+  position: relative;
+}
+.position-container img {
+  width: 100%;
+  height: 100%;
+  cursor: crosshair;
+}
+.position-container i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #1E9FFF;
+}
+/* dictionary option style end */
+/* contract style start */
+.attachment-info {
+  display: inline-block;
+  padding: 5px;
+  padding-right: 10px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.attachment-info:hover {
+  border-color: #009688;
+}
+.attachment-info i {
+  font-family: layui-icon !important;
+  font-style: normal;
+  position: relative;
+  right: -5px;
+  cursor: pointer;
+}
+/* contract style end */
+/* daily-inspection style start */
+.inspection-item-unit {
+  width: 42px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.attachment-image-info {
+  display: inline-block;
+  position: relative;
+  padding: 2px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.attachment-image-info:hover {
+  border-color: #009688;
+}
+.attachment-image-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+    .attachment-image-info i {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        width: 14px;
+        height: 14px;
+        padding: 2px;
+        font-family: layui-icon !important;
+        font-weight: bold;
+        font-style: normal;
+        border-radius: 50%;
+        background-color: #ff5722;
+        color: white;
+    }
+/* daily-inspection style end */
+/* maintenance style start */
+.modal-maintenance .modal-container {
+  max-height: 650px;
+}
+.modal-maintenance .layui-form-pane .layui-form-label {
+  width: 130px;
+  text-align: center;
+}
+/* maintenance style end */
+/* incident style start */
+.modal-incident .modal-container {
+  max-height: 650px;
+}
+.modal-incident .layui-form-pane .layui-form-label {
+  width: 160px;
+}
+/* incident style end */
+/* evaluation style start */
+.modal-evaluation .layui-form-pane .layui-form-label {
+  width: 130px;
+}
+.modal-evaluation .layui-form-pane .layui-input-block {
+  margin-left: 130px;
+}
+.evaluation-chart-container {
+  position: relative;
+}
+.evaluation-chart,
+.evaluation-chart-data {
+  height: 400px;
+}
+.evaluation-chart-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+.evaluation-chart-data .chart-title {
+  font-weight: bold;
+  text-align: right;
+  white-space: nowrap;
+}
+.evaluation-chart-data .chart-item {
+  margin-right: 5px;
+  white-space: nowrap;
+  color: #0066cc;
+}
+.evaluation-chart-empty {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* evaluation style end */
+/* conservation style start */
+.modal-conservation .layui-form-pane .layui-form-label,
+.modal-conservation-process .layui-form-pane .layui-form-label {
+  width: 150px;
+}
+.div-conservation-item {
+  padding: 5px;
+  margin: 5px;
+  background-color: #eaeaea;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.div-conservation-item button {
+  float: right;
+}
+.div-conservation-item:hover {
+  background-color: #ddd;
+}
+.div-conservation-item-list span {
+  display: inline-block;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  padding: 0 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  transition: all 0.5s;
+}
+.div-conservation-item-list span:hover {
+  border-color: #009688;
+}
+.process-line {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.process-step {
+  position: relative;
+  flex-grow: 1;
+  text-align: center;
+  line-height: 60px;
+}
+.process-step::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 8px;
+  height: 5px;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.process-step::after {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  left: 50%;
+  top: 10px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.process-step.active::before,
+.process-step.active::after {
+  background-color: #4e70a7;
+}
+
+.process-step:first-child::before {
+  left: 50%;
+  width: 50%;
+}
+.process-step:last-child::before {
+  right: 50%;
+  width: 50%;
+} /* conservation style end */
+/* basic info style start */
+#map-container {
+  height: 100%;
+}
+#picture-container a {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+#picture-container img {
+  width: 100%;
+  height: 100%;
+}
+/* basic info style end */
+/* path style start */
+.map-layout {
+  position: absolute;
+  top: 50px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.map-container {
+  flex-grow: 1;
+}
+/* path style end */
+
+/* input tip style start */
+.input-tip-list {
+  position: absolute;
+  background-color: white;
+  z-index: 100000000;
+  box-shadow: 0 2px 4px rgba(0,0,0,.12);
+  max-width: 200px;
+  max-height: 200px;
+  overflow: auto;
+}
+.input-tip-list li {
+  cursor: pointer;
+  padding: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.input-tip-list li:hover {
+  background-color: #eee;
+}
+
+.sm12-allBh {
+    border-bottom: 1px solid #ece9e9;
+    padding-bottom: 2px !important;
+    height: 30px !important;
+    line-height: 12px
+}
+/* input tip style end */
+.amap-overlay-text-container {
+    border: none !important;
+    background-color: transparent !important
+}
+
+.info-layui-input::-webkit-input-placeholder{
+    color:white
+}
+.info-ul li{
+    height:38px;
+    line-height:38px;
+}
+.info-ul li:hover{
+    background-color:#e9e9e9;
+    cursor:pointer;
+}
+.nav-a-left{
+    margin-right:10px
+}
+.nav-a-left .layui-nav-more {
+    margin-right: 10px;
+}

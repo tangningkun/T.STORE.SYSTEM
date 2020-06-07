@@ -43,24 +43,26 @@ namespace T.STORE.SYSTEM.WebApi
 
 
             #region Swagger
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new Info
-                {
-                    Version = "v1.1.0",
-                    Title = "T.STORE.SYSTEM.WebApi",
-                    Description = "商店系统框架API",
-                    TermsOfService = "None",
-                    //Contact = new Swashbuckle.AspNetCore.Swagger.Contact { Name = "Tangningkunn", Email = "1209229446@qq.com", Url = "" }
-                });
 
-                // 为 Swagger JSON and UI设置xml文档注释路径
-                var basePath = Path.GetDirectoryName(typeof(Program).Assembly.Location);//获取应用程序所在目录（绝对，不受工作目录影响，建议采用此方法获取路径）
-                //添加接口XML的路径
-                var xmlPath = Path.Combine(basePath, "T.STORE.SYSTEM.WebApi.xml");
-                //如果需要显示控制器注释只需将第二个参数设置为true
-                c.IncludeXmlComments(xmlPath, true);
-            });
+                services.AddSwaggerGen(c =>
+                {
+                    c.SwaggerDoc("v1", new Info
+                    {
+                        Version = "v1.1.0",
+                        Title = "T.STORE.SYSTEM.WebApi",
+                        Description = "商店系统框架API",
+                        TermsOfService = "None",
+                        //Contact = new Swashbuckle.AspNetCore.Swagger.Contact { Name = "Tangningkunn", Email = "1209229446@qq.com", Url = "" }
+                    });
+
+                    // 为 Swagger JSON and UI设置xml文档注释路径
+                    var basePath = Path.GetDirectoryName(typeof(Program).Assembly.Location);//获取应用程序所在目录（绝对，不受工作目录影响，建议采用此方法获取路径）
+                    //添加接口XML的路径
+                    var xmlPath = Path.Combine(basePath, "T.STORE.SYSTEM.WebApi.xml");
+                    //如果需要显示控制器注释只需将第二个参数设置为true
+                    c.IncludeXmlComments(xmlPath, true);
+                });
+            
             #endregion
 
             return AutofacConfigure.Register(services);
@@ -79,13 +81,17 @@ namespace T.STORE.SYSTEM.WebApi
                 app.UseExceptionHandler("/error");
             }
             app.UseErrorHandling();
+
             #region Swagger
-            app.UseSwagger();
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "T.STORE.SYSTEM.WebApi");
-            });
+
+                app.UseSwagger();
+                app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "T.STORE.SYSTEM.WebApi");
+                });
+
             #endregion
+
             app.UseHttpsRedirection();
             app.UseMvc();
         }

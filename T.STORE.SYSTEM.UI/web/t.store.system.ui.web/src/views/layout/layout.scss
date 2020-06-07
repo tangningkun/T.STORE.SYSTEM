@@ -1,65 +1,197 @@
-.main {
-  background-color: #ffffff;
+@import '@/styles/bass.scss';
+.el-main {
+  padding: 0;
+}
+
+.layout-wapper {
+  background-color: $background-color;
   position: absolute;
   width: 100%;
   height: 100%;
-  .main-aside-true {
-    width: 200px !important;
-    overflow: hidden;
-    border-right: 1px solid #e0e0f3;
-    .main-aside-el-menu {
-      border-right: solid 0px #e6e6e6 !important;
-    }
-    i {
-      font-size: 25px;
-      padding-right: 36px;
-    }
-  }
-  .main-aside-false {
-    width: auto !important;
-    overflow: hidden;
-    border-right: 1px solid #e0e0f3;
-    .main-aside-el-menu {
-      border-right: solid 0px #e6e6e6 !important;
-    }
-    i {
-      font-size: 25px;
-      padding-right: 36px;
-    }
-  }
-
-  .main-container {
-    .main-container-header {
-      background-color: #ffffff;
-      height: 88px !important;
-      padding: 0px 1px !important;
-      .main-container-header-col-top {
-        border-bottom: 1px solid #e0e0f3;
-        //box-shadow: 3px 3px 1px #f4f0f7;
-        height: 60px;
-        .main-container-header-button {
-          background-color: #ffffff;
-          width: 58px;
-          height: 58px;
-          float: left;
-          font-size: 28px;
-          padding: 15px 15px;
-          border: 0px solid #e0e0f3 !important;
-          color: #a8a8ab;
-          i {
-            width: 50px;
-            height: 50px;
+  .navHeader-wapper {
+    background-color: $primary-color;
+    height: 48px !important;
+    padding: 0;
+    .header {
+      position: relative;
+      box-sizing: border-box;
+      width: 100%;
+      height: 48px;
+      line-height: 48px;
+      font-size: 22px;
+      color: #fff;
+      background-color: $primary-color;
+      border-bottom: 1px solid #2e3a43;
+      .collapse-btn {
+        width: 48px;
+        float: left;
+        cursor: pointer;
+        line-height: 48px;
+        height: 48px;
+        img {
+          width: 40px;
+          border-radius: 20px;
+          margin: 4px 0px 0px 4px;
+        }
+      }
+      .logo {
+        float: left;
+        line-height: 48px;
+        text-align: center;
+        color: #ffffff;
+        //padding-left: 50px;
+        position: relative;
+        .logoicon {
+          position: absolute;
+          height: 48px;
+          line-height: 48px;
+          width: 48px;
+          min-height: 48px;
+          right: -48px;
+          top: 0px;
+          cursor: pointer;
+          img {
+            width: 100%;
           }
         }
       }
-      .main-container-header-col-buttom {
-        height: 28px;
-        border-bottom: 1px solid #e0e0f3;
-        //box-shadow: 3px 3px 1px #f4f0f7;
+      .header-right {
+        float: right;
+        padding-right: 20px;
+        .header-user-con {
+          display: flex;
+          height: 48px;
+          line-height: 48px;
+          min-height: 48px;
+          max-height: 48px;
+          align-items: center;
+          .user-avator {
+            margin-left: 20px;
+            img {
+              display: block;
+              width: 20px;
+              height: 20px;
+              border-radius: 50%;
+            }
+          }
+          // .user-name {
+          //   margin-left: 10px;
+          //   margin-right: 20px;
+          //   &.txt {
+          //     font-size: 14px;
+          //   }
+          //   .el-dropdown-link {
+          //     color: #fff;
+          //     cursor: pointer;
+          //   }
+          // }
+          .btn-time {
+            margin-right: 20px;
+            height: 48px;
+            line-height: 48px;
+            min-height: 48px;
+            max-height: 48px;
+            cursor: pointer;
+            font-family: '微软雅黑';
+            font-weight: 400;
+            font-style: normal;
+            font-size: 12px;
+            color: #ffffff;
+            i {
+              font-family: '微软雅黑';
+              font-weight: 400;
+              font-style: normal;
+              font-size: 12px;
+              color: #ffffff;
+            }
+            span {
+              margin-left: 5px;
+              font-family: '微软雅黑';
+              font-weight: 400;
+              font-style: normal;
+              font-size: 12px;
+              color: #ffffff;
+            }
+          }
+          .btn-fullscreen {
+            transform: rotate(45deg);
+            margin-right: 5px;
+            font-size: 24px;
+          }
+          .btn-bell,
+          .btn-fullscreen {
+            position: relative;
+            text-align: center;
+            border-radius: 15px;
+            cursor: pointer;
+          }
+          .btn-bell-badge {
+            position: absolute;
+            right: 0;
+            top: -2px;
+            width: 8px;
+            height: 8px;
+            border-radius: 4px;
+            background: #f56c6c;
+            color: #fff;
+          }
+          .btn-bell .el-icon-bell {
+            color: #fff;
+          }
+          .el-dropdown-link {
+            color: #fff;
+            cursor: pointer;
+          }
+          .el-dropdown-menu__item {
+            text-align: center;
+          }
+        }
       }
     }
-    .main-container-main {
-      box-shadow: 5px 5px 1px #f8f8ff;
+  }
+
+  .container-wapper {
+    .el-aside {
+      background-color: $aside-primary-color;
+    }
+    .main-aside-true {
+      width: 200px !important;
+      overflow: hidden;
+      //border-right: 1px solid #e0e0f3;
+      .main-aside-el-menu {
+        //border-right: solid 0px #e6e6e6 !important;
+      }
+      i {
+        font-size: 18px;
+        color: #fff;
+        //padding-right: 36px;
+      }
+    }
+    .container-wapper-aside {
+      width: auto !important;
+      overflow: hidden;
+      // border-right: 1px solid #e0e0f3;
+      border-right: 0px solid #444b65;
+      .main-aside-el-menu {
+        //border-right: solid 0px #e6e6e6 !important;
+      }
+      i {
+        font-size: 18px;
+        color: #fff;
+        //padding-right: 36px;
+      }
+    }
+    .container-main-wapper {
+      overflow: hidden;
+      .container-main-wapper-header {
+        height: 40px;
+        width: 100%;
+        background-color: #fff;
+      }
+      .container-main-wapper-content {
+        height: 100%;
+        width: 100%;
+      }
     }
   }
 }

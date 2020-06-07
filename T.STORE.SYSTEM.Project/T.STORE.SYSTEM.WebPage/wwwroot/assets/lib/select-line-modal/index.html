@@ -1,0 +1,14 @@
+<div class="modal-container">
+  <form class="layui-form" lay-filter="form-select-line">
+    <div class="layui-form-item">
+      <select name="line" lay-search>
+        {{# layui.each(d.roads, function(index, item){ }}
+        <option value="{{item.id}}">{{item.name}}</option>
+        {{# }); }}
+      </select>
+    </div>
+    <div class="layui-form-item t-c">
+      <button class="layui-btn" lay-submit lay-filter="add">确定</button>
+    </div>
+  </form>
+</div>

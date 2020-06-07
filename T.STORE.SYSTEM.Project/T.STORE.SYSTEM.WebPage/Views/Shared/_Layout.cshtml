@@ -1,0 +1,61 @@
+﻿@using T.STORE.SYSTEM.WebPage.Common;
+
+@inject AppConfigurtaion _appConfigurtaion;
+
+
+@{
+    var isDebug = _appConfigurtaion.AppConfigurtaionValue("mode") == "debug";
+    var version = isDebug ? DateTime.Now.Ticks.ToString() : _appConfigurtaion.AppConfigurtaionValue("version");
+}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <environment include="Development">
+            <link rel="stylesheet" href="~/assets/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+            <link rel="stylesheet" href="~/assets/node_modules/font-awesome/css/font-awesome.min.css"/>
+            <link rel="stylesheet" href="~/assets/css/shared/main.css"/>
+            @RenderSection("styles", required: false)
+            <script type="text/javascript">
+                //This is used to get the application's root path from javascript. It's useful if you're running application in a virtual directory under IIS.
+                var _version = @version;
+                var _picSize =  @_appConfigurtaion.AppConfigurtaionValue("version");
+                var _fileSize = @_appConfigurtaion.AppConfigurtaionValue("version");
+                var _jsPath = '@(ViewBag.JsPath ?? string.Empty)';
+                var _toolBarWidth = @(ViewBag.ToolBarWidth ?? 60);
+            </script>
+            @RenderSection("headScripts", false)
+        </environment>
+        
+
+    
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="main-header">
+                @*@Html.RenderPartial("AuthorPartial");*@
+            </header>
+            @*@Url.Action("Login", "Account");*@
+            <aside>
+                @RenderBody()
+            </aside>
+        </div>
+        <environment include="Development">
+            <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+            <!--[if lt IE 9]>
+            <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+            <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+            <![endif]-->
+            <script type="text/javascript" src="~/Assets/lib/require.js?v=@version"></script>
+            <script>
+                requirejs(['/assets/lib/config.js?v=' + _version]);
+            </script>
+        </environment>
+        @RenderSection("scripts", required: false)
+</body>
+</html>

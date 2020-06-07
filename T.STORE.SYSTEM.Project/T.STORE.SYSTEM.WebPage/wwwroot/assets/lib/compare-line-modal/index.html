@@ -1,0 +1,24 @@
+<div class="modal-container">
+  <div class="layui-tab layui-tab-card">
+    <ul class="layui-tab-title">
+      <li class="layui-this">修改前</li>
+      <li>修改后</li>
+    </ul>
+    <div class="layui-tab-content">
+      <div class="layui-tab-item layui-show old-line">
+        before
+      </div>
+      <div class="layui-tab-item new-line">
+        after
+      </div>
+    </div>
+  </div>
+  <form class="layui-form" lay-filter="form-save-compare">
+    <div class="layui-form-item">
+      <input type="checkbox" name="cover" lay-skin="primary" title="将改动应用到线路最新档案" checked value="true">
+    </div>
+    <div class="layui-form-item">
+      <button class="layui-btn layui-btn-normal" lay-submit lay-filter="save-compare">确定</button>
+    </div>
+  </form>
+</div>
