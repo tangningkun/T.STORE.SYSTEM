@@ -4,7 +4,7 @@
  * @Author: 唐宁坤
  * @Date: 2020-04-12 10:30:44
  * @LastEditors: 唐宁坤
- * @LastEditTime: 2020-06-07 23:42:44
+ * @LastEditTime: 2020-06-08 01:45:33
 -->
 
 # 项目文档
@@ -19,6 +19,7 @@
 
 ## 路径详解
 
+```
 ├─ node_modules/ # npm 执行命令引用的包
 ├─ public/ # 模板文件
 ├─ dist/ # build(发布) 生成的生产环境下的项目
@@ -44,6 +45,7 @@
 │ ├─ .env.development # 开发环境默认 API 属性配置
 │ ├─ .env.production # 线上环境默认 API 属性配置
 │ ├─ babel.config.js # babel 配置
+```
 
 ## demo 示例建立(CMD 命令)
 
